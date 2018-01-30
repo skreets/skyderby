@@ -1,0 +1,26 @@
+.profil {
+
+	.section {
+		width: calc(100% - 255px);
+
+		&_header {
+			height: 70px;
+			background: #fff;
+			border-bottom: 1px solid $border;
+		}
+
+		&_item {
+			padding: 30px;
+
+			&_head {
+
+				&_title {
+					color: $text;
+					font: 16px $pn-sb;
+					text-transform: uppercase;
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+}

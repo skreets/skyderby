@@ -15,9 +15,908 @@
 		"oA": 0,
 		"oAP": "\/.gitignore",
 		"oF": 0
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Bold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Bold.eot",
+		"oF": 3
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Bold.svg",
+		"oF": 3,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Bold.ttf",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Bold.woff",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-BoldIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-BoldIt.eot",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-BoldIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-BoldIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-BoldIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-BoldIt.ttf",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-BoldIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-BoldIt.woff",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Light.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Light.eot",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Light.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Light.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Light.ttf",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Light.woff",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-LightIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-LightIt.eot",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-LightIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-LightIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-LightIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-LightIt.ttf",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-LightIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-LightIt.woff",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Regular.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Regular.eot",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Regular.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Regular.ttf",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Regular.woff",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-RegularIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-RegularIt.eot",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-RegularIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-RegularIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-RegularIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-RegularIt.ttf",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-RegularIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-RegularIt.woff",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Semibold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Semibold.eot",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Semibold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Semibold.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Semibold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Semibold.ttf",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-Semibold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-Semibold.woff",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.eot",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.ttf",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.woff",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-ThinIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-ThinIt.eot",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-ThinIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-ThinIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-ThinIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-ThinIt.ttf",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNova-ThinIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNova-ThinIt.woff",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNovaT-Thin.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNovaT-Thin.eot",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNovaT-Thin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNovaT-Thin.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNovaT-Thin.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNovaT-Thin.ttf",
+		"oF": 1
+		},
+	"\/app\/fonts\/proxima-nova\/ProximaNovaT-Thin.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNovaT-Thin.woff",
+		"oF": 1
+		},
+	"\/app\/haml\/profilMain.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/profilMain.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/app\/haml\/tmp\/profil\/header.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/header.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/app\/haml\/tmp\/profil\/progress.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/progress.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/app\/haml\/tmp\/profil\/sidebar.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/sidebar.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/app\/sass\/mixin\/css3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/css3.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/mixin\/fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/mixin\/gradient.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/gradient.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/mixin\/grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/mixin\/respond.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/respond.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/page\/base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/page\/profile\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/page\/profile\/progress.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/progress.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/page\/profile\/section.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/page\/profile\/sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/page\/reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/css\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/variables\/color.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/color.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/.gitignore",
+		"oF": 0
+		},
+	"\/public\/header.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/header.html",
+		"oF": 0
+		},
+	"\/public\/profilMain.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/profilMain.html",
+		"oF": 0
+		},
+	"\/public\/progress.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/progress.html",
+		"oF": 0
+		},
+	"\/public\/sidebar.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/sidebar.html",
+		"oF": 0
+		},
+	"\/public\/static\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Bold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Bold.eot",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Bold.ttf",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Bold.woff",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-BoldIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-BoldIt.eot",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-BoldIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-BoldIt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-BoldIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-BoldIt.ttf",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-BoldIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-BoldIt.woff",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Light.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Light.eot",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Light.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Light.ttf",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Light.woff",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-LightIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-LightIt.eot",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-LightIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-LightIt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-LightIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-LightIt.ttf",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-LightIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-LightIt.woff",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Regular.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Regular.eot",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Regular.ttf",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Regular.woff",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-RegularIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-RegularIt.eot",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-RegularIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-RegularIt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-RegularIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-RegularIt.ttf",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-RegularIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-RegularIt.woff",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Semibold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Semibold.eot",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Semibold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Semibold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Semibold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Semibold.ttf",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Semibold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-Semibold.woff",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.eot",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.ttf",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-SemiboldIt.woff",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-ThinIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-ThinIt.eot",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-ThinIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-ThinIt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-ThinIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-ThinIt.ttf",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-ThinIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNova-ThinIt.woff",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNovaT-Thin.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNovaT-Thin.eot",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNovaT-Thin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNovaT-Thin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNovaT-Thin.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNovaT-Thin.ttf",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/proxima-nova\/ProximaNovaT-Thin.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNovaT-Thin.woff",
+		"oF": 0
 		}
 	},
 "hooks": [
+	{
+		"enabled": 1,
+		"name": "Hook #1",
+		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGYmNYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMTU6Oz5CRktMT1VZXV9VJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy0vMFxOU0V4cHJlc3Npb25YTlNPYmplY3TSEAsyNKEzgAmADNMLHzY3ODlZTlNLZXlQYXRogAsQCoAKXWlucHV0RnVsbFBhdGjSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEF1za3lkZXJieS1odG1s0issTU5fEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uo00vMNQLUFFSU0koVFpOU01vZGlmaWVyV05TRmxhZ3NeTlNPcGVyYXRvclR5cGWAEhBj0issVldfEBVOU0luUHJlZGljYXRlT3BlcmF0b3KjVlgwXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLFpbXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo1pcMFtOU1ByZWRpY2F0ZdIrLEFeokEw0issYGFfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2BcMF8QD05TS2V5ZWRBcmNoaXZlctFkZVRyb290gAEACAARABoAIwAtADIANwBQAFYAXQB3AIkAkACSAJQAlgCbAKYAqACqAKwAtQDJANwA8gD0APYA+AD6AQUBDwEeATEBPQE\/AUEBQwFFAUcBVAFZAVsBXQFiAW0BdgGJAY0BmgGjAagBqgGsAa4BtQG\/AcEBwwHFAdMB2AH3AfsCAAIPAhMCGwIgAjYCOwJSAlkCawJtAm8CcQJ\/AoQCoAKkAq0CuALAAs8C0QLTAtgC8AL0AwoDDwMnAysDNwM8Az8DRANaA14DcANzA3gAAAAAAAACAQAAAAAAAABmAAAAAAAAAAAAAAAAAAADeg==",
+		"runOrder": 0,
+		"scriptSourceString": "",
+		"scriptType": 1,
+		"uuidString": "1C68964C-B4E7-4503-95C4-0D564256DF35"
+		}
 	],
 "manualImportLinks": {
 	},
@@ -25,7 +924,8 @@
 	"creationDate": 538960834,
 	"displayValue": "skyderby-html",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-soon"
+	"iconImageName": "meme-yesBaby",
+	"lastBuiltDate": 538968190
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -281,7 +1181,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"buildFolderActive": 0,
-	"buildFolderName": "build",
+	"buildFolderName": "public",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -1807,10 +2707,10 @@
 	"languageDefaultsHAML": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathRelativePath": "\/public",
+		"autoOutputPathReplace1": "haml",
+		"autoOutputPathReplace2": "haml",
+		"autoOutputPathStyle": 1,
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
@@ -1832,10 +2732,10 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathRelativePath": "\/public\/min",
+		"autoOutputPathReplace1": "js",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
@@ -1932,10 +2832,10 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "\/public\/static\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
@@ -1976,9 +2876,9 @@
 	"languageDefaultsSVG": {
 		"autoOutputAction": 2,
 		"autoOutputPathFilenamePattern": "*.svg",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
+		"autoOutputPathRelativePath": "\/public\/static\/svg",
+		"autoOutputPathReplace1": "svg",
+		"autoOutputPathReplace2": "svg",
 		"autoOutputPathStyle": 0,
 		"pluginMask": 3758088159
 		},
@@ -2005,8 +2905,8 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
-	"sourceFolderName": "source",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules, .DS_Store",
+	"sourceFolderName": "app",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {

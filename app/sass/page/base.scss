@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+body {
+	color: $text;
+	font-family: $pn-l;
+	background: $bg;
+	-webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+::selection {
+	color: #fff;
+	background: $text;
+}
+::-moz-selection {
+	color: #fff;
+	background: $text;
+}
+::-webkit-selection {
+	color: #fff;
+	background: $text;
+}
+
+a {
+
+	&[href^="http://savefrom.net/"] {display: none !important;}
+}
