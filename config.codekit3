@@ -16,6 +16,37 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/app\/fonts\/icon\/icon.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/fonts\/icon\/icon.eot",
+		"oF": 0
+		},
+	"\/app\/fonts\/icon\/icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/icon\/icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/fonts\/icon\/icon.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/fonts\/icon\/icon.ttf",
+		"oF": 0
+		},
+	"\/app\/fonts\/icon\/icon.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/fonts\/icon\/icon.woff",
+		"oF": 0
+		},
 	"\/app\/fonts\/proxima-nova\/ProximaNova-Bold.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -595,6 +626,37 @@
 		"oAP": "\/public\/static\/css\/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/public\/static\/fonts\/icon\/icon.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/icon\/icon.eot",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/icon\/icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/static\/fonts\/icon\/icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/static\/fonts\/icon\/icon.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/icon\/icon.ttf",
+		"oF": 0
+		},
+	"\/public\/static\/fonts\/icon\/icon.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/static\/fonts\/icon\/icon.woff",
+		"oF": 0
 		},
 	"\/public\/static\/fonts\/proxima-nova\/ProximaNova-Bold.eot": {
 		"cB": 0,
