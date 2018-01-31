@@ -2,4 +2,8 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row-reverse;
+
+	@include respond-to(mobile) {
+		flex-direction: column;
+	}
 }

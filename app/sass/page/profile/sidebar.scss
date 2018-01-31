@@ -8,6 +8,12 @@
 		background: $sidebar;
 		@include transition-delay(all 350ms ease-in-out, 0);
 
+		@include respond-to(mobile) {
+			width: 100%;
+			height: 70px;
+			position: relative;
+		}
+
 		@include respond-to(laptop) {
 			left: -176px;
 		}
@@ -24,6 +30,11 @@
 			position: relative;
 			background: $sidebar-light;
 
+			@include respond-to(mobile) {
+				padding: 0 $_25 0 $_20;
+				justify-content: space-between;
+			}
+
 			a {
 				color: #fff;
 				font: 25px $pn-l;
@@ -33,6 +44,8 @@
 				display: flex;
   			align-items: center;
 				flex-direction: row;
+				position: relative;
+				z-index: 1;
 
 				span {
 					opacity: 1;
@@ -44,6 +57,55 @@
 					color: #fff;
 					font: 38px $icon;
 					margin: 0 15px 0 0;
+				}
+			}
+
+			.burger {
+				width: 24px;
+				height: 10px;
+				display: none;
+				position: relative;
+				z-index: 2;
+
+				@include respond-to(mobile) {
+					display: block;
+				}
+
+				&:before {
+					content: '';
+					width: 24px;
+					height: 2px;
+					display: block;
+					position: absolute;
+					top: 0; left: 0;
+					background: #fff;
+					@include transform(rotate(0deg));
+					@include transition-delay(all 350ms ease-in-out, 0);
+				}
+
+				&:after {
+					content: '';
+					width: 24px;
+					height: 2px;
+					display: block;
+					position: absolute;
+					bottom: 0; left: 0;
+					background: #fff;
+					@include transform(rotate(0deg));
+					@include transition-delay(all 350ms ease-in-out, 0);
+				}
+
+				&.active {
+
+					&:before {
+						top: 4px;
+						@include transform(rotate(45deg));
+					}
+
+					&:after {
+						bottom: 4px;
+						@include transform(rotate(-45deg));
+					}
 				}
 			}
 
@@ -78,8 +140,16 @@
 
 		&_wrapp {
 
+			@include respond-to(mobile) {
+				display: none;
+			}
+
 			&_nav {
 				margin-bottom: 60px;
+
+				@include respond-to(mobile) {
+					margin-bottom: 0;
+				}
 
 				li {
 					border-bottom: 1px solid $sidebar-light;
@@ -131,6 +201,10 @@
 							span {
 								margin-right: -48px;
 								display: block;
+
+								@include respond-to(mobile) {
+									margin-right: 0;
+								}
 							}
 
 							&:after {
@@ -149,6 +223,10 @@
 								background: -moz-linear-gradient(left,  rgba(37,47,60,0) 0%, rgba(37,47,60,0.8) 25%, rgba(37,47,60,1) 60%, rgba(37,47,60,1) 100%);
 								background: -webkit-linear-gradient(left,  rgba(37,47,60,0) 0%,rgba(37,47,60,0.8) 25%,rgba(37,47,60,1) 60%,rgba(37,47,60,1) 100%);
 								background: linear-gradient(to right,  rgba(37,47,60,0) 0%,rgba(37,47,60,0.8) 25%,rgba(37,47,60,1) 60%,rgba(37,47,60,1) 100%);
+
+								@include respond-to(mobile) {
+									display: none;
+								}
 							}
 						}
 
@@ -277,6 +355,10 @@
 			font: 12px/12px $pn-l;
 			margin-bottom: 30px;
 
+			@include respond-to(mobile) {
+				display: none;
+			}
+
 			@include respond-to(laptop) {
 				width: 80px;
 				font: 10px/10px $pn-l;
@@ -318,6 +400,16 @@
 					@include respond-to(desktop) {
 						display: flex;
 					}
+				}
+			}
+		}
+
+		&.active {
+			@include respond-to(mobile) {
+				height: auto;
+
+				.sidebar_wrapp {
+					display: block;
 				}
 			}
 		}

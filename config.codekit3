@@ -413,6 +413,17 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
+	"\/app\/images\/favicon.png": {
+		"ft": 32768,
+		"iS": 20017,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/app\/jquery\/profil-main.js": {
 		"ft": 64,
 		"ma": 0,
@@ -420,7 +431,7 @@
 		"oA": 0,
 		"oAP": "\/public\/static\/jquery\/profil-main.min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/app\/sass\/mixin\/css3.scss": {
@@ -2305,6 +2316,17 @@
 		"oA": 0,
 		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNovaT-Thin.woff",
 		"oF": 0
+		},
+	"\/public\/static\/images\/favicon.png": {
+		"ft": 32768,
+		"iS": 6768,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/static\/jquery\/profil-main.min.js": {
 		"ft": 64,
@@ -4226,10 +4248,10 @@
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.png",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "public\/static\/images",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"optimizerType": 1,
 		"quality": 100
 		},
