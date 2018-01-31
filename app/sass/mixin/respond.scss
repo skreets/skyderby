@@ -1,4 +1,5 @@
 $mobile:  768px;
+$tablet:  1023px;
 $laptop:  960px;
 $desktop: 1200px;
 $mac:     1600px;
@@ -10,11 +11,11 @@ $mac:     1600px;
   }
 
   @else if $media == tablet {
-    @media only screen and (width: $mobile) { @content; }
+    @media only screen and (min-width: $mobile) and (max-width: $tablet) { @content; }
   }
 
   @else if $media == laptop {
-    @media only screen and (min-width: $laptop + 1) { @content; }
+    @media only screen and (min-width: $laptop) { @content; }
   }
 
   @else if $media == desktop {

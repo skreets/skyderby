@@ -2,31 +2,322 @@
 
 	.sidebar {
 		width: 255px;
+		height: 100%;
 		position: fixed;
 		top: 0; bottom: 0; left: 0;
 		background: $sidebar;
+		@include transition-delay(all 350ms ease-in-out, 0);
+
+		@include respond-to(laptop) {
+			left: -176px;
+		}
+
+		@include respond-to(desktop) {
+			left: 0;
+		}
 
 		&_head {
 			height: 70px;
 			display: flex;
 		  justify-content: center;
 		  align-items: center;
+			position: relative;
 			background: $sidebar-light;
 
-			span {
+			a {
 				color: #fff;
 				font: 25px $pn-l;
 				letter-spacing: .05em;
 				text-transform: uppercase;
+				text-decoration: none;
 				display: flex;
   			align-items: center;
-				cursor: default;
+				flex-direction: row;
+
+				span {
+					opacity: 1;
+					@include transition-delay(all 350ms ease-in-out, 0);
+				}
 
 				&:before {
 					content: $icon-skyderby;
 					color: #fff;
 					font: 38px $icon;
-					margin-right: 15px;
+					margin: 0 15px 0 0;
+				}
+			}
+
+			@include respond-to(laptop) {
+				a {
+					flex-direction: row-reverse;
+
+					span {
+						opacity: 0;
+					}
+
+					&:before {
+						margin: 0 -27px 0 20px;
+					}
+				}
+			}
+
+			@include respond-to(desktop) {
+				a {
+					flex-direction: row;
+
+					span {
+						opacity: 1;
+					}
+
+					&:before {
+						margin: 0 15px 0 0;
+					}
+				}
+			}
+		}
+
+		&_wrapp {
+
+			&_nav {
+				margin-bottom: 60px;
+
+				li {
+					border-bottom: 1px solid $sidebar-light;
+
+					a {
+						color: #fff;
+						height: 74px;
+						font: 20px $pn-l;
+						text-decoration: none;
+						white-space: nowrap;
+						display: flex;
+						justify-content: flex-end;
+						align-items: center;
+						position: relative;
+						padding-right: $_30;
+						@include transition-delay(all 350ms ease-in-out, 0);
+
+						span {
+
+							&:before {
+								content: attr(data-title);
+								color: #fff;
+								font: 9px $pn-r;
+								text-align: center;
+								width: 80px;
+								position: absolute;
+								bottom: 6px; right: 0;
+								opacity: 0;
+								@include transition-delay(all 350ms ease-in-out, 0);
+							}
+						}
+
+						&:after {
+							position: relative;
+							z-index: 2;
+						}
+
+						&.dashboard {
+
+							&:after {
+								content: $icon-dashboard;
+								font: 24px/0 $icon;
+								margin: 2px 0 0 29px;
+							}
+						}
+
+						&.online {
+
+							span {
+								margin-right: -48px;
+								display: block;
+							}
+
+							&:after {
+								content: $icon-star;
+								font: 27px/0 $icon;
+								margin: 3px -1px 0 27px;
+							}
+
+							&:before {
+								content: '';
+								width: 110px;
+								height: 26px;
+								display: block;
+								position: absolute;
+								top: 23px; right: 30px;
+								background: -moz-linear-gradient(left,  rgba(37,47,60,0) 0%, rgba(37,47,60,0.8) 25%, rgba(37,47,60,1) 60%, rgba(37,47,60,1) 100%);
+								background: -webkit-linear-gradient(left,  rgba(37,47,60,0) 0%,rgba(37,47,60,0.8) 25%,rgba(37,47,60,1) 60%,rgba(37,47,60,1) 100%);
+								background: linear-gradient(to right,  rgba(37,47,60,0) 0%,rgba(37,47,60,0.8) 25%,rgba(37,47,60,1) 60%,rgba(37,47,60,1) 100%);
+							}
+						}
+
+						&.competitions {
+
+							&:after {
+								content: $icon-cup;
+								font: 31px/0 $icon;
+								margin: 3px -3px 0 26px;
+							}
+						}
+
+						&.track {
+
+							&:after {
+								content: $icon-track;
+								font: 20px/0 $icon;
+								margin: 3px -1px 0 29px;
+							}
+						}
+
+						&.location {
+
+							&:after {
+								content: $icon-location;
+								font: 20px/0 $icon;
+								margin: 0 1px 0 31px;
+							}
+						}
+
+						&.suit {
+
+							&:after {
+								content: $icon-wingsuit;
+								font: 20px/0 $icon;
+								margin: 1px 0 0 28px;
+							}
+						}
+
+						&.about {
+
+							&:after {
+								content: $icon-about;
+								font: 20px/0 $icon;
+								margin: 1px 0 0 28px;
+							}
+						}
+
+						&.add {
+							color: $green;
+
+							&:after {
+								content: $icon-add;
+								font: 33px/0 $icon;
+								margin: 15px -4px 0 26px;
+							}
+
+							@include respond-to(laptop) {
+
+								&:hover {
+									color: #fff;
+									background: $green;
+
+									span {
+
+										&:before {
+											color: #fff;
+										}
+									}
+								}
+							}
+						}
+					}
+
+					&.active {
+
+						a {
+							color: $blue-hover;
+
+							span {
+
+								&:before {
+									color: $blue-hover;
+								}
+							}
+						}
+					}
+
+					&:hover {
+
+						@include respond-to(laptop) {
+
+							a {
+								color: $blue-hover;
+
+								span {
+
+									&:before {
+										color: $blue-hover;
+										opacity: 1;
+									}
+								}
+							}
+						}
+
+						@include respond-to(desktop) {
+
+							a {
+
+								span {
+
+									&:before {
+										opacity: 0;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		&_copy {
+			width: 100%;
+			color: #fff;
+			font: 12px/12px $pn-l;
+			margin-bottom: 30px;
+
+			@include respond-to(laptop) {
+				width: 80px;
+				font: 10px/10px $pn-l;
+				margin-left: 175px;
+				text-align: center;
+			}
+
+			@include respond-to(desktop) {
+				width: 100%;
+				font: 12px/12px $pn-l;
+				margin-left: 0;
+			}
+
+			p {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.icon {
+
+					&:before {
+						content: $icon-beer;
+						font: 16px $icon;
+						color: $orange-beer;
+						margin: 0 5px;
+					}
+				}
+
+				&:first-child {
+					padding-bottom: 2px;
+				}
+
+				&:last-child {
+
+					@include respond-to(laptop) {
+						display: none;
+					}
+
+					@include respond-to(desktop) {
+						display: flex;
+					}
 				}
 			}
 		}

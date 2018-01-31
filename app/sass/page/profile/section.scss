@@ -2,6 +2,15 @@
 
 	.section {
 		width: calc(100% - 255px);
+		@include transition-delay(all 350ms ease-in-out, 0);
+
+		@include respond-to(laptop) {
+			width: calc(100% - 80px);
+		}
+
+		@include respond-to(desktop) {
+			width: calc(100% - 255px);
+		}
 
 		&_header {
 			height: 70px;
@@ -10,7 +19,7 @@
 		}
 
 		&_item {
-			padding: 30px;
+			padding: $_30;
 
 			&_head {
 
