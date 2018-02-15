@@ -1,19 +1,5 @@
 .section_header
-  %ul.section_header_nav
-    %li
-      %span.burger
-    %li.active
-      %a{:href => "#"}
-        Общее
-    %li
-      %a{:href => "#"}
-        Треки
-    %li
-      %a{:href => "#"}
-        Профиль полетов
-    %li
-      %a{:href => "#"}
-        Видео
+  %span.section_header_burger
   .section_header_user
     %a.add{:href => "#"}
       %span
@@ -21,3 +7,17 @@
     .notify
       %span.icon.new
     .user
+
+%ul.section_header_nav
+  %li.active
+    %a{:href => "#"}
+      Общее
+  %li
+    %a{:href => "#"}
+      Треки
+  %li
+    %a{:href => "#"}
+      Профиль полетов
+  %li
+    %a{:href => "#"}
+      Видео

@@ -6,6 +6,7 @@
 		overflow: hidden;
 		position: relative;
 		background: $sidebar;
+		@include transition-delay(all 350ms ease-in-out, 0);
 
 		&_head {
 			height: 70px;
@@ -42,7 +43,7 @@
 
 			.burger {
 				width: 24px;
-				height: 10px;
+				height: 24px;
 				display: block;
 				position: relative;
 				z-index: 2;
@@ -53,7 +54,7 @@
 					height: 2px;
 					display: block;
 					position: absolute;
-					top: 0; left: 0;
+					top: 7px; left: 0;
 					background: #fff;
 					@include transform(rotate(0deg));
 					@include transition-delay(all 350ms ease-in-out, 0);
@@ -65,7 +66,7 @@
 					height: 2px;
 					display: block;
 					position: absolute;
-					bottom: 0; left: 0;
+					bottom: 7px; left: 0;
 					background: #fff;
 					@include transform(rotate(0deg));
 					@include transition-delay(all 350ms ease-in-out, 0);
@@ -74,12 +75,12 @@
 				&.active {
 
 					&:before {
-						top: 4px;
+						top: 11px;
 						@include transform(rotate(45deg));
 					}
 
 					&:after {
-						bottom: 4px;
+						bottom: 11px;
 						@include transform(rotate(-45deg));
 					}
 				}
@@ -223,7 +224,7 @@
 		}
 
 		&.active {
-			height: auto;
+			height: 670px;
 
 			.sidebar_wrapp {
 				display: block;

@@ -592,19 +592,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/sass\/_mobile\/page\/profile\/progress.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/public\/static\/css\/progress.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/app\/sass\/_mobile\/page\/profile\/section.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2155,6 +2142,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/public\/_mobile\/profilMain.html",
+		"oF": 0
+		},
+	"\/public\/header.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/header.html",
+		"oF": 0
+		},
+	"\/public\/sidebar.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/sidebar.html",
 		"oF": 0
 		},
 	"\/public\/static\/css\/desktop.css": {
