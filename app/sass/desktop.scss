@@ -15,11 +15,12 @@
 @import 'plugin/scrollbar';
 
 // Page
-@import 'page/reset';
-@import 'page/base';
+@import 'layout/reset';
+@import 'layout/base';
+@import 'layout/progress';
 
 // Profil
-@import 'page/profile/main';
-@import 'page/profile/sidebar';
-@import 'page/profile/section';
-@import 'page/profile/progress';
+@import '_desktop/page/profile/main';
+@import '_desktop/page/profile/sidebar';
+@import '_desktop/page/profile/header';
+@import '_desktop/page/profile/section';

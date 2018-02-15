@@ -3,46 +3,39 @@
     %a{:href => 'index.html'}
       %span
         SkyDerby
-    %span{:class => 'burger'}
+    %span.burger
 
   .sidebar_wrapp
-    %ul{:class => 'sidebar_wrapp_nav'}
-      %li{:class => 'active'}
-        %a{:href => 'profilMain.html', :class => 'dashboard'}
+    %ul.sidebar_wrapp_nav
+      %li.active
+        %a.dashboard{:href => 'profilMain.html'}
           %span{'data-title' => 'Dashboard'}
             Dashboard
       %li
-        %a{:href => '#', :class => 'online'}
+        %a.online{:href => '#'}
           %span{'data-title' => 'Онлайн'}
             Онлайн соревнования
       %li
-        %a{:href => '#', :class => 'competitions'}
+        %a.competitions{:href => '#'}
           %span{'data-title' => 'Соревнования'}
             Соревнования
       %li
-        %a{:href => '#', :class => 'track'}
+        %a.track{:href => '#'}
           %span{'data-title' => 'Треки'}
             Треки
       %li
-        %a{:href => '#', :class => 'location'}
+        %a.location{:href => '#'}
           %span{'data-title' => 'Локации'}
             Локации
       %li
-        %a{:href => '#', :class => 'suit'}
+        %a.suit{:href => '#'}
           %span{'data-title' => 'Костюмы'}
             Костюмы
       %li
-        %a{:href => '#', :class => 'about'}
+        %a.about{:href => '#'}
           %span{'data-title' => 'О проекте'}
             О проекте
       %li
-        %a{:href => 'javascript:void(0);', :class => 'add'}
+        %a.add{:href => 'javascript:void(0);'}
           %span{'data-title' => 'Загрузить'}
             Загрузить трек
-
-  .sidebar_copy
-    %p © 2014 - 2018 SKYDERBY
-    %p
-      Сделано под
-      %span{:class => 'icon'}
-      [sd] team

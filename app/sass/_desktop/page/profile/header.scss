@@ -1,0 +1,190 @@
+.profil {
+
+	.section {
+
+		&_header {
+			height: 70px;
+			display: flex;
+		  justify-content: space-between;
+		  align-items: center;
+			background: #fff;
+			padding: 0 30px 0 28px;
+			border-bottom: 1px solid $border;
+
+			&_nav {
+				display: flex;
+
+				li {
+					margin-right: 60px;
+
+					a {
+						color: $text;
+						font: 18px $pn-r;
+						display: block;
+						text-decoration: none;
+						position: relative;
+						white-space: nowrap;
+						@include transition-delay(all 350ms ease-in-out, 0);
+
+						@include respond-to(laptop) {
+							&:after {
+								content: '';
+								width: 100%;
+								height: 2px;
+								display: block;
+								position: absolute;
+								bottom: -24px; left: 0;
+								background: $tr;
+							}
+
+							&:hover {
+								color: $blue;
+							}
+						}
+					}
+
+					&.active {
+
+						a {
+							color: $blue;
+
+							&:after {
+								background: $blue;
+							}
+						}
+					}
+
+					&:first-child {
+
+						@include respond-to(laptop) {
+							display: none;
+						}
+					}
+				}
+			}
+
+			&_user {
+				display: flex;
+
+				.add {
+					width: 70px;
+					height: 70px;
+					color: #fff;
+					text-decoration: none;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					position: relative;
+					margin-right: 5px;
+					background: $green;
+					@include transition-delay(all 350ms ease-in-out, 350ms);
+
+					span {
+						color: #fff;
+						font: 12px $pn-r;
+						background: #000;
+						border-radius: 2px;
+						padding: 2px 7px;
+						position: absolute;
+						bottom: -39px; left: -13px;
+						white-space: nowrap;
+						opacity: 0;
+						z-index: -1;
+						@include transition-delay(all 350ms ease-in-out, 0);
+
+						&:before {
+							content: '';
+							width: 0;
+							height: 0;
+							border-style: solid;
+							border-width: 0 4px 5px 4px;
+							border-color: transparent transparent #000 transparent;
+							position: absolute;
+							top: -4px; left: 45px;
+						}
+					}
+
+					&:before {
+						content: $icon-add;
+						font: 50px/0 $icon;
+						color: #fff;
+						margin-top: $_20;
+						@include transition-delay(all 350ms ease-in-out, 0);
+					}
+
+					@include respond-to(laptop) {
+						&:hover {
+
+							span {
+								bottom: -29px;
+								opacity: 1;
+								z-index: 1;
+							}
+
+							&:before {
+								color: $green-dark;
+							}
+						}
+					}
+				}
+
+				.notify {
+					width: 70px;
+					height: 70px;
+					display: flex;
+				  justify-content: center;
+				  align-items: center;
+
+					.icon {
+						position: relative;
+						cursor: pointer;
+
+						&.new {
+
+							&:after {
+								display: block;
+							}
+						}
+
+						&:before {
+							content: $icon-notification;
+							font: 30px/0 $icon;
+							color: #ccc;
+							margin-top: 2px;
+							display: block;
+							position: relative;
+							z-index: 1;
+							@include transition-delay(all 350ms ease-in-out, 0);
+						}
+
+						&:after {
+							content: '';
+							width: 6px;
+							height: 6px;
+							display: none;
+							border-radius: 100%;
+							position: absolute;
+							top: -14px; right: 0px;
+							border: 2px solid #fff;
+							background: $blue;
+							z-index: 2;
+						}
+
+						&:hover {
+
+							@include respond-to(laptop) {
+								&:before {
+									color: $blue;
+								}
+							}
+						}
+					}
+				}
+
+				.user {
+					width: 310px;
+				}
+			}
+		}
+	}
+}

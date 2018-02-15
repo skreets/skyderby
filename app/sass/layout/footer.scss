@@ -1,0 +1,28 @@
+footer {
+  width: 100%;
+  color: $text;
+  display: block;
+  font: 12px/12px $pn-l;
+  margin-bottom: 30px;
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+
+      &:before {
+        content: $icon-beer;
+        font: 16px $icon;
+        color: $orange-beer;
+        margin: 0 5px;
+      }
+    }
+
+    &:first-child {
+      padding-bottom: 2px;
+    }
+  }
+
+}

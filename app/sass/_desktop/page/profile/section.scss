@@ -4,10 +4,6 @@
 		width: calc(100% - 255px);
 		@include transition-delay(all 350ms ease-in-out, 0);
 
-		@include respond-to(mobile) {
-			width: 100%;
-		}
-
 		@include respond-to(laptop) {
 			width: calc(100% - 80px);
 		}
@@ -16,18 +12,8 @@
 			width: calc(100% - 255px);
 		}
 
-		&_header {
-			height: 70px;
-			background: #fff;
-			border-bottom: 1px solid $border;
-		}
-
 		&_item {
 			padding: $_30;
-
-			@include respond-to(mobile) {
-				padding: $_20;
-			}
 
 			&_head {
 

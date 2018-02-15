@@ -7,7 +7,7 @@
 		"uuidString": "6B4358C0-7875-4F5C-B7B4-EDDC03F3E6AD"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -357,21 +357,21 @@
 		"oAP": "\/app\/fonts\/proxima-nova\/ProximaNovaT-Thin.woff",
 		"oF": 1
 		},
-	"\/app\/haml\/profilMain.haml": {
+	"\/app\/haml\/_desktop\/profilMain.haml": {
 		"cB": 0,
 		"cDA": 0,
 		"eHT": 0,
 		"ft": 256,
 		"nEA": 0,
 		"oA": 0,
-		"oAP": "\/public\/profilMain.html",
-		"oF": 0,
+		"oAP": "\/public\/_desktop\/profilMain.html",
+		"oF": 2,
 		"oFM": 2,
 		"oS": 0,
 		"uDQ": 0,
 		"uUN": 0
 		},
-	"\/app\/haml\/tmp\/profil\/header.haml": {
+	"\/app\/haml\/_desktop\/tmp\/profil\/header.haml": {
 		"cB": 0,
 		"cDA": 0,
 		"eHT": 0,
@@ -385,7 +385,7 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
-	"\/app\/haml\/tmp\/profil\/progress.haml": {
+	"\/app\/haml\/_desktop\/tmp\/profil\/progress.haml": {
 		"cB": 0,
 		"cDA": 0,
 		"eHT": 0,
@@ -399,7 +399,7 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
-	"\/app\/haml\/tmp\/profil\/sidebar.haml": {
+	"\/app\/haml\/_desktop\/tmp\/profil\/sidebar.haml": {
 		"cB": 0,
 		"cDA": 0,
 		"eHT": 0,
@@ -408,6 +408,76 @@
 		"oA": 1,
 		"oAP": "\/public\/sidebar.html",
 		"oF": 1,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/app\/haml\/_mobile\/profilMain.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/_mobile\/profilMain.html",
+		"oF": 2,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/app\/haml\/_mobile\/tmp\/layout\/footer.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/footer.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/app\/haml\/_mobile\/tmp\/profil\/header.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/header.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/app\/haml\/_mobile\/tmp\/profil\/progress.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/progress.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/app\/haml\/_mobile\/tmp\/profil\/sidebar.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/sidebar.html",
+		"oF": 0,
 		"oFM": 2,
 		"oS": 0,
 		"uDQ": 0,
@@ -424,15 +494,207 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/jquery\/profil-main.js": {
+	"\/app\/jquery\/_desktop\/profil-main.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/static\/jquery\/profil-main.min.js",
-		"oF": 0,
+		"oAP": "\/public\/static\/jquery\/desktop\/profil-main.min.js",
+		"oF": 2,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/app\/jquery\/_mobile\/profil-main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/static\/jquery\/mobile\/profil-main.min.js",
+		"oF": 2,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/sass\/_desktop\/page\/profile\/header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/_desktop\/page\/profile\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/_desktop\/page\/profile\/section.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/_desktop\/page\/profile\/sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/_mobile\/page\/profile\/header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/_mobile\/page\/profile\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/_mobile\/page\/profile\/progress.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/css\/progress.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/_mobile\/page\/profile\/section.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/_mobile\/page\/profile\/sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/desktop.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/css\/desktop.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/layout\/base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/layout\/footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/layout\/progress.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/progress.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/layout\/reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/app\/sass\/mixin\/css3.scss": {
 		"aP": 0,
@@ -499,81 +761,16 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/sass\/page\/base.scss": {
+	"\/app\/sass\/mobile.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/static\/css\/base.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/sass\/page\/profile\/main.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/static\/css\/main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/sass\/page\/profile\/progress.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/static\/css\/progress.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/sass\/page\/profile\/section.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/static\/css\/section.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/sass\/page\/profile\/sidebar.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/static\/css\/sidebar.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/sass\/page\/reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/static\/css\/reset.css",
-		"oF": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/css\/mobile.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
@@ -586,19 +783,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/public\/static\/css\/scrollbar.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/sass\/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/public\/static\/css\/styles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -684,7 +868,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.min.js",
 		"oF": 2,
 		"sC": 3,
@@ -1893,7 +2077,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/overlayScrollbars\/js\/jquery.overlayScrollbars.min.js",
 		"oF": 0,
 		"sC": 3,
@@ -1959,20 +2143,37 @@
 		"oAP": "\/public\/.gitignore",
 		"oF": 0
 		},
-	"\/public\/profilMain.html": {
+	"\/public\/_desktop\/profilMain.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/profilMain.html",
+		"oAP": "\/public\/_desktop\/profilMain.html",
 		"oF": 0
 		},
-	"\/public\/static\/css\/styles.css": {
+	"\/public\/_mobile\/profilMain.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/_mobile\/profilMain.html",
+		"oF": 0
+		},
+	"\/public\/static\/css\/desktop.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/public\/static\/css\/styles-min.css",
+		"oAP": "\/public\/static\/css\/desktop-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/public\/static\/css\/mobile.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/css\/mobile-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -2328,7 +2529,17 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/public\/static\/jquery\/profil-main.min.js": {
+	"\/public\/static\/jquery\/desktop\/profil-main.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/static\/jquery\/profil-main.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/static\/jquery\/mobile\/profil-main.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2342,7 +2553,7 @@
 "hooks": [
 	],
 "manualImportLinks": {
-	"\/app\/jquery\/profil-main.js": [
+	"\/app\/jquery\/_desktop\/profil-main.js": [
 		{
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
@@ -2353,6 +2564,14 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/overlayScrollbars\/js\/jquery.overlayScrollbars.min.js",
 			"position": 1,
+			"type": 0
+			}
+		],
+	"\/app\/jquery\/_mobile\/profil-main.js": [
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
+			"position": 0,
 			"type": 0
 			}
 		]
@@ -2370,6 +2589,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,

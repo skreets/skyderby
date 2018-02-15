@@ -1,0 +1,48 @@
+.sidebar{'data-mcs-theme' => 'minimal'}
+  .sidebar_head
+    %a{:href => 'index.html'}
+      %span
+        SkyDerby
+    %span.burger
+
+  .sidebar_wrapp
+    %ul.sidebar_wrapp_nav
+      %li.active
+        %a.dashboard{:href => 'profilMain.html'}
+          %span{'data-title' => 'Dashboard'}
+            Dashboard
+      %li
+        %a.online{:href => '#'}
+          %span{'data-title' => 'Онлайн'}
+            Онлайн соревнования
+      %li
+        %a.competitions{:href => '#'}
+          %span{'data-title' => 'Соревнования'}
+            Соревнования
+      %li
+        %a.track{:href => '#'}
+          %span{'data-title' => 'Треки'}
+            Треки
+      %li
+        %a.location{:href => '#'}
+          %span{'data-title' => 'Локации'}
+            Локации
+      %li
+        %a.suit{:href => '#'}
+          %span{'data-title' => 'Костюмы'}
+            Костюмы
+      %li
+        %a.about{:href => '#'}
+          %span{'data-title' => 'О проекте'}
+            О проекте
+      %li
+        %a.add{:href => 'javascript:void(0);'}
+          %span{'data-title' => 'Загрузить'}
+            Загрузить трек
+
+  .sidebar_copy
+    %p © 2014 - 2018 SKYDERBY
+    %p
+      Сделано под
+      %span.icon
+      [sd] team
