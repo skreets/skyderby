@@ -1,0 +1,101 @@
+.profil {
+
+	.section {
+
+		.track {
+			border: 1px solid $border;
+			padding: 13px 10px 10px;
+			margin-bottom: 20px;
+			background: #fff;
+
+			&:last-child {
+				margin-bottom: -4px;
+			}
+
+			&-info {
+				display: flex;
+				justify-content: space-between;
+				color: $gray;
+				font: 14px/14px $pn-l;
+				padding-bottom: 7px;
+			}
+
+			&-pilot {
+				display: flex;
+				align-items: center;
+
+				&-user {
+					color: $text;
+					font: 22px $pn-r;
+					overflow: hidden;
+					white-space: nowrap;
+				}
+
+				&-country {
+					color: $blue;
+					font: 16px $pn-r;
+					text-transform: uppercase;
+					margin-top: 2px;
+
+					&:before {
+						content: '//';
+						color: $gray-light;
+						font: 16px $pn-sb;
+						letter-spacing: -1.5px;
+						padding: 0 5px;
+					}
+				}
+			}
+
+			&-wrapp {
+				display: flex;
+				justify-content: space-between;
+				padding: 10px 0 5px;
+
+				&-location {
+					display: flex;
+
+					&_name {
+						color: $text;
+						font: 14px/18px $pn-r;
+						overflow: hidden;
+						white-space: nowrap;
+					}
+
+					&_country {
+						color: $blue;
+						font: 11px $pn-r;
+						margin-top: 3px;
+
+						&:before {
+							content: '//';
+							color: $gray-light;
+							font: 11px $pn-sb;
+							letter-spacing: -1.5px;
+							padding: 0 5px;
+						}
+					}
+				}
+
+				&-suit {
+					width: 40vw;
+					color: $text;
+					font: 14px $pn-r;
+					text-align: right;
+					margin-left: 20px;
+					overflow: hidden;
+					white-space: nowrap;
+
+					span {
+						color: $gray-light;
+					}
+				}
+			}
+
+			&-comments {
+				color: $gray;
+				font: 12px $pn-li;
+			}
+		}
+	}
+}
