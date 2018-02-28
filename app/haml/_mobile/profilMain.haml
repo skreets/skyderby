@@ -18,12 +18,12 @@
 
   %body{:class => 'profil'}
 
-    = Haml::Engine.new(File.read(File.expand_path 'tmp/profil/sidebar.haml', File.dirname(__FILE__))).render
+    = Haml::Engine.new(File.read(File.expand_path 'tpl/profil/sidebar.haml', File.dirname(__FILE__))).render
 
     .section
-      = Haml::Engine.new(File.read(File.expand_path 'tmp/profil/header.haml', File.dirname(__FILE__))).render
-      = Haml::Engine.new(File.read(File.expand_path 'tmp/profil/track.haml', File.dirname(__FILE__))).render
-      = Haml::Engine.new(File.read(File.expand_path 'tmp/profil/progress.haml', File.dirname(__FILE__))).render
+      = Haml::Engine.new(File.read(File.expand_path 'tpl/profil/header.haml', File.dirname(__FILE__))).render
+      = Haml::Engine.new(File.read(File.expand_path 'tpl/profil/track.haml', File.dirname(__FILE__))).render
+      = Haml::Engine.new(File.read(File.expand_path 'tpl/profil/progress.haml', File.dirname(__FILE__))).render
 
     %footer
-      = Haml::Engine.new(File.read(File.expand_path 'tmp/layout/footer.haml', File.dirname(__FILE__))).render
+      = Haml::Engine.new(File.read(File.expand_path 'tpl/layout/footer.haml', File.dirname(__FILE__))).render
