@@ -371,6 +371,20 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
+	"\/app\/haml\/_desktop\/tpl\/layout\/sidebar.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 1,
+		"oAP": "\/public\/sidebar.html",
+		"oF": 1,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
 	"\/app\/haml\/_desktop\/tpl\/profil\/header.haml": {
 		"cB": 0,
 		"cDA": 0,
@@ -399,20 +413,6 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
-	"\/app\/haml\/_desktop\/tpl\/profil\/sidebar.haml": {
-		"cB": 0,
-		"cDA": 0,
-		"eHT": 0,
-		"ft": 256,
-		"nEA": 0,
-		"oA": 1,
-		"oAP": "\/public\/sidebar.html",
-		"oF": 1,
-		"oFM": 2,
-		"oS": 0,
-		"uDQ": 0,
-		"uUN": 0
-		},
 	"\/app\/haml\/_mobile\/profilMain.haml": {
 		"cB": 0,
 		"cDA": 0,
@@ -435,6 +435,20 @@
 		"nEA": 0,
 		"oA": 0,
 		"oAP": "\/public\/footer.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/app\/haml\/_mobile\/tpl\/layout\/header.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/header.html",
 		"oF": 0,
 		"oFM": 2,
 		"oS": 0,
@@ -528,6 +542,19 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/app\/sass\/_desktop\/layout\/sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/app\/sass\/_desktop\/page\/profile\/header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -567,7 +594,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/sass\/_desktop\/page\/profile\/sidebar.scss": {
+	"\/app\/sass\/_mobile\/layout\/header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -575,7 +602,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/public\/static\/css\/sidebar.css",
+		"oAP": "\/public\/static\/css\/header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -615,19 +642,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/public\/static\/css\/section.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/sass\/_mobile\/page\/profile\/sidebar.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/static\/css\/sidebar.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2176,13 +2190,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/public\/header.html",
-		"oF": 0
-		},
-	"\/public\/sidebar.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/sidebar.html",
 		"oF": 0
 		},
 	"\/public\/static\/css\/desktop.css": {

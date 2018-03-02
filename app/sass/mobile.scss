@@ -19,10 +19,10 @@
 @import 'layout/base';
 @import 'layout/progress';
 @import 'layout/footer';
+@import '_mobile/layout/header';
 
 // Profil
 @import '_mobile/page/profile/main';
-@import '_mobile/page/profile/sidebar';
 @import '_mobile/page/profile/header';
 @import '_mobile/page/profile/section';
 @import '_mobile/page/profile/track';

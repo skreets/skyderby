@@ -18,9 +18,9 @@
 @import 'layout/reset';
 @import 'layout/base';
 @import 'layout/progress';
+@import '_desktop/layout/sidebar';
 
 // Profil
 @import '_desktop/page/profile/main';
-@import '_desktop/page/profile/sidebar';
 @import '_desktop/page/profile/header';
 @import '_desktop/page/profile/section';
