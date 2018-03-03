@@ -19,5 +19,14 @@ $(document).ready(function(){
     $('.menu').removeClass('active');
     $('.page-overlay').delay(350).fadeOut();
     $('html, body').removeClass('overflow');
+    $('.menu-user-nav .lang').next('ul').fadeOut();
+  });
+
+  $('body').on('click', '.menu-user-nav .lang', function(){
+    $(this).next('ul').fadeToggle('active');
+  });
+
+  $('body').on('click', '.menu-user-nav li ul a', function(){
+    $('.menu-user-nav li ul').fadeOut();
   });
 });

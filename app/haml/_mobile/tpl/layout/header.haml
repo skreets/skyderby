@@ -17,6 +17,19 @@
       %li
         %a.lang{:href => '#'}
           rus
+        %ul
+          %li
+            %a.active{"data-lang" => "rus", :href => 'javascript:void(0);'}
+              Russian
+          %li
+            %a{"data-lang" => "eng", :href => 'javascript:void(0);'}
+              English
+          %li
+            %a{"data-lang" => "det", :href => 'javascript:void(0);'}
+              Deutsch
+          %li
+            %a{"data-lang" => "spa", :href => 'javascript:void(0);'}
+              Spainish
       %li
         %a.exit{:href => '#'}
       %li
@@ -30,7 +43,7 @@
       %a.online{:href => '#'}
         Онлайн соревнования
     %li
-      %a.competitions{:href => '#'}
+      %a.competitions{:href => 'eventMain.html'}
         Соревнования
     %li
       %a.track{:href => '#'}
