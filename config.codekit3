@@ -543,6 +543,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/app\/jquery\/_mobile\/layout.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/public\/static\/jquery\/layout.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/app\/jquery\/_mobile\/profil-main.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2209,13 +2219,6 @@
 		"oAP": "\/public\/_mobile\/profilMain.html",
 		"oF": 0
 		},
-	"\/public\/header.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/header.html",
-		"oF": 0
-		},
 	"\/public\/static\/css\/desktop.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2642,6 +2645,12 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
 			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/app\/jquery\/_mobile\/layout.js",
+			"position": 1,
 			"type": 0
 			}
 		]
