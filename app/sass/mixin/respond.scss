@@ -1,8 +1,8 @@
-$mobile:  768px;
-$tablet:  1023px;
-$laptop:  960px;
-$desktop: 1200px;
-$mac:     1600px;
+$mobile:    768px;
+$tablet:    1023px;
+$laptop:    960px;
+$desktop:   1200px;
+$mac:       1600px;
 
 @mixin respond-to($media) {
 

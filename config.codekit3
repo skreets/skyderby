@@ -455,14 +455,14 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
-	"\/app\/haml\/_mobile\/tpl\/profil\/header.haml": {
+	"\/app\/haml\/_mobile\/tpl\/profil\/nav.haml": {
 		"cB": 0,
 		"cDA": 0,
 		"eHT": 0,
 		"ft": 256,
 		"nEA": 0,
 		"oA": 0,
-		"oAP": "\/public\/header.html",
+		"oAP": "\/public\/nav.html",
 		"oF": 0,
 		"oFM": 2,
 		"oS": 0,
@@ -510,6 +510,17 @@
 		"oS": 0,
 		"uDQ": 0,
 		"uUN": 0
+		},
+	"\/app\/images\/avatar.png": {
+		"ft": 32768,
+		"iS": 7710,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/avatar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/app\/images\/favicon.png": {
 		"ft": 32768,
@@ -590,6 +601,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/public\/static\/css\/section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/_mobile\/layout\/base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/base.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2552,6 +2576,17 @@
 		"oA": 0,
 		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNovaT-Thin.woff",
 		"oF": 0
+		},
+	"\/public\/static\/images\/avatar.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/avatar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/static\/images\/favicon.png": {
 		"ft": 32768,

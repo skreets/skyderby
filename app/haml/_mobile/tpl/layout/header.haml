@@ -3,39 +3,47 @@
     %a{:href => 'index.html'}
       %span
         SkyDerby
-    %span.burger
+    .head-nav
+      %a.notification.active{:href => 'javascript:void(0);'}
+      %a.burger{:href => 'javascript:void(0);'}
 
-  .wrapp
-    %ul.wrapp_nav
-      %li.active
-        %a.dashboard{:href => 'profilMain.html'}
-          %span{'data-title' => 'Dashboard'}
-            Dashboard
+.page-overlay
+.menu
+  .menu-user
+    %a.menu-user-profil{:href => '#'}
+      %img{:src => "../static/images/avatar.png"}/
+      %p Александр Жариков
+    %ul.menu-user-nav
       %li
-        %a.online{:href => '#'}
-          %span{'data-title' => 'Онлайн'}
-            Онлайн соревнования
+        %a.lang{:href => '#'}
+          rus
       %li
-        %a.competitions{:href => '#'}
-          %span{'data-title' => 'Соревнования'}
-            Соревнования
+        %a.exit{:href => '#'}
       %li
-        %a.track{:href => '#'}
-          %span{'data-title' => 'Треки'}
-            Треки
-      %li
-        %a.location{:href => '#'}
-          %span{'data-title' => 'Локации'}
-            Локации
-      %li
-        %a.suit{:href => '#'}
-          %span{'data-title' => 'Костюмы'}
-            Костюмы
-      %li
-        %a.about{:href => '#'}
-          %span{'data-title' => 'О проекте'}
-            О проекте
-      %li
-        %a.add{:href => 'javascript:void(0);'}
-          %span{'data-title' => 'Загрузить'}
-            Загрузить трек
+        %a.close{:href => '#'}
+
+  %ul.menu_nav
+    %li.active
+      %a.dashboard{:href => 'profilMain.html'}
+        Dashboard
+    %li
+      %a.online{:href => '#'}
+        Онлайн соревнования
+    %li
+      %a.competitions{:href => '#'}
+        Соревнования
+    %li
+      %a.track{:href => '#'}
+        Треки
+    %li
+      %a.location{:href => '#'}
+        Локации
+    %li
+      %a.suit{:href => '#'}
+        Костюмы
+    %li
+      %a.about{:href => '#'}
+        О проекте
+    %li
+      %a.add{:href => 'javascript:void(0);'}
+        Загрузить трек

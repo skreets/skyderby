@@ -1,12 +1,23 @@
 $(document).ready(function(){
 
-  $('body').on('click', '.burger', function() {
-    $(this).toggleClass('active');
-    $('.sidebar').toggleClass('active');
+  $('body').on('click', '.notification', function(){
+    alert('notification');
   });
 
-  $('body').on('click', '.section_header_burger', function() {
-    $(this).toggleClass('active');
-    $('.section_header, .section_header_nav').toggleClass('active');
+  var widthMenu = $('.menu').width();
+  $('.menu').css('right', '-' + widthMenu + 'px');
+
+  $('body').on('click', '.burger', function() {
+    $(this).addClass('active');
+    $('html, body').addClass('overflow');
+    $('.page-overlay').fadeIn();
+    $('.menu').addClass('active');
+  });
+
+  $('body').on('click', '.menu .close', function() {
+    $('.burger').removeClass('active');
+    $('.menu').removeClass('active');
+    $('.page-overlay').delay(350).fadeOut();
+    $('html, body').removeClass('overflow');
   });
 });

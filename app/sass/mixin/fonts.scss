@@ -65,5 +65,12 @@ $icon-dad: 					'\e90e';
 $icon-distance: 		'\e90f';
 $icon-phoenixfly: 	'\e91a';
 $icon-about: 				'\e91b';
+$icon-heart: 				'\e91c';
+$icon-youtube: 			'\e91d';
+$icon-vimeo: 				'\e91e';
+$icon-video_add: 		'\e91f';
+$icon-video: 				'\e920';
+$icon-zoom_out: 		'\e921';
+$icon-logout: 			'\e922';
 
 @include font-face($icon, '../fonts/icon/', 'icon', 'icon');
