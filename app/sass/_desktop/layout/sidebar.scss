@@ -303,10 +303,10 @@
 				.icon {
 
 					&:before {
-						content: $icon-beer;
-						font: 16px $icon;
-						color: $orange-beer;
-						margin: 0 5px;
+						content: $icon-heart;
+		        font: 8px $icon;
+		        color: #ff9191;
+						margin: 0 4px;
 					}
 				}
 
