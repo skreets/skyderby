@@ -19,6 +19,7 @@
   %body{:class => 'profil'}
 
     = Haml::Engine.new(File.read(File.expand_path 'tpl/layout/header.haml', File.dirname(__FILE__))).render
+    = Haml::Engine.new(File.read(File.expand_path 'tpl/layout/notification.haml', File.dirname(__FILE__))).render
 
     .section
       -# = Haml::Engine.new(File.read(File.expand_path 'tpl/profil/nav.haml', File.dirname(__FILE__))).render

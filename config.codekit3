@@ -455,6 +455,20 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
+	"\/app\/haml\/_mobile\/tpl\/layout\/notification.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/notification.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
 	"\/app\/haml\/_mobile\/tpl\/profil\/nav.haml": {
 		"cB": 0,
 		"cDA": 0,
@@ -511,11 +525,154 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
-	"\/app\/images\/avatar.png": {
+	"\/app\/images\/avatar\/airglide.png": {
+		"ft": 32768,
+		"iS": 3357,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/airglide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/cup_bronze.png": {
+		"ft": 32768,
+		"iS": 3379,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/cup_bronze.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/cup_gold.png": {
+		"ft": 32768,
+		"iS": 3402,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/cup_gold.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/cup_silver.png": {
+		"ft": 32768,
+		"iS": 3398,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/cup_silver.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/genomfly.png": {
+		"ft": 32768,
+		"iS": 3759,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/genomfly.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/intrudair.png": {
+		"ft": 32768,
+		"iS": 4342,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/intrudair.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/phoenix-fly.png": {
+		"ft": 32768,
+		"iS": 3618,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/phoenix-fly.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/pressurized.png": {
+		"ft": 32768,
+		"iS": 3983,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/pressurized.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/raven.png": {
+		"ft": 32768,
+		"iS": 3902,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/raven.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/sfly.png": {
+		"ft": 32768,
+		"iS": 4553,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/sfly.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/skyderby.png": {
+		"ft": 32768,
+		"iS": 6031,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/skyderby.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/squirrel.png": {
+		"ft": 32768,
+		"iS": 3768,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/squirrel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/tonysuit.png": {
+		"ft": 32768,
+		"iS": 4243,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/tonysuit.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/avatar\/user.png": {
 		"ft": 32768,
 		"iS": 7710,
 		"oA": 0,
-		"oAP": "\/public\/static\/images\/avatar.png",
+		"oAP": "\/public\/static\/images\/user.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -728,6 +885,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/public\/static\/css\/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/layout\/notification.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/notification.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2226,6 +2396,13 @@
 		"oAP": "\/public\/header.html",
 		"oF": 0
 		},
+	"\/public\/notification.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/notification.html",
+		"oF": 0
+		},
 	"\/public\/static\/css\/desktop.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2587,11 +2764,154 @@
 		"oAP": "\/public\/static\/fonts\/proxima-nova\/ProximaNovaT-Thin.woff",
 		"oF": 0
 		},
-	"\/public\/static\/images\/avatar.png": {
+	"\/public\/static\/images\/avatar\/airglide.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/public\/static\/images\/avatar.png",
+		"oAP": "\/public\/static\/images\/airglide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/cup_bronze.png": {
+		"ft": 32768,
+		"iS": 3379,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/cup_bronze.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/cup_gold.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/cup_gold.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/cup_silver.png": {
+		"ft": 32768,
+		"iS": 3398,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/cup_silver.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/genomfly.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/genomfly.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/intrudair.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/intrudair.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/phoenix-fly.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/phoenix-fly.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/pressurized.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/pressurized.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/raven.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/raven.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/sfly.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/sfly.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/skyderby.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/skyderby.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/squirrel.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/squirrel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/tonysuit.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/tonysuit.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/static\/images\/avatar\/user.png": {
+		"ft": 32768,
+		"iS": 7710,
+		"oA": 0,
+		"oAP": "\/public\/static\/images\/user.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

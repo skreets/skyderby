@@ -1,7 +1,8 @@
 $(document).ready(function(){
 
-  $('body').on('click', '.notification', function(){
-    alert('notification');
+  $('body').on('click', '.notif', function(){
+    $('.notification').fadeToggle();
+    $('html, body').toggleClass('overflow');
   });
 
   var widthMenu = $('.menu').width();

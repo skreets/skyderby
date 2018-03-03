@@ -46,7 +46,7 @@ header {
       }
     }
 
-    .notification {
+    .notif {
       width: 15px;
       height: 17px;
       margin-right: 12.5px;
@@ -374,5 +374,19 @@ header {
     opacity: 1;
     right: 0 !important;
     @include transition-delay(all 350ms ease-in-out, 350ms);
+  }
+}
+
+.notification {
+  width: 100%;
+  top: 70px;
+
+  &-wrapp {
+    height: 350px;
+    overflow-y: scroll;
+  }
+
+  &:before {
+    right: 75px;
   }
 }
