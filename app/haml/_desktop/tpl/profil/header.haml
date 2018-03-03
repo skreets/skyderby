@@ -18,4 +18,70 @@
         Загрузить трек
     .notify
       %span.icon.new
+      .notification
+        .notification-title
+          Новые уведомления
+        .notification-wrapp
+          .notification-wrapp-item.new
+            .notification-wrapp-item_img
+              %img{:src => "../static/images/avatar/skyderby.png"}/
+              %span.label.rss.orange
+            .notification-wrapp-item_content
+              %p
+                %a.name{:href => "#"} Skyderby
+                новости сайта
+                %a{:href => "#"} «На странице трэка появилась возможность...»
+              .notification-wrapp-item_content-date только что
+          .notification-wrapp-item
+            .notification-wrapp-item_img
+              %img{:src => "../static/images/avatar/skyderby.png"}/
+              %span.label.star.red
+            .notification-wrapp-item_content
+              %p
+                %a.name{:href => "#"} Skyderby
+                пилот
+                %a{:href => "#"} «Александр Кунин»
+                обошел вас в категории
+                %a{:href => '#'} «Monosuit Time»
+              .notification-wrapp-item_content-date час назад
+          .notification-wrapp-item
+            .notification-wrapp-item_img
+              %img{:src => "../static/images/avatar/airglide.png"}/
+              %span.label.plus.green
+            .notification-wrapp-item_content
+              %p
+                %a.name{:href => "#"} Airglide
+                создал новое соревнование
+                %a{:href => "#"} «Airglide Competition 2018»
+              .notification-wrapp-item_content-date 3 часа назад
+          .notification-wrapp-item.cup
+            .notification-wrapp-item_img
+              %img{:src => "../static/images/avatar/cup_gold.png"}/
+            .notification-wrapp-item_content
+              %p
+                %span.name Поздравляем!
+                вы заняли первое место на
+                %a{:href => "#"} «BWS Cup 2017»
+              .notification-wrapp-item_content-date сегодня в 12:37
+          .notification-wrapp-item
+            .notification-wrapp-item_img
+              %img{:src => "../static/images/avatar/phoenix-fly.png"}/
+              %span.label.plus.green
+            .notification-wrapp-item_content
+              %p
+                %a.name{:href => "#"} Phoenix-fly
+                добавил новый костюм
+                %a{:href => "#"} «Onesie»
+              .notification-wrapp-item_content-date вчера в 14:35
+          .notification-wrapp-item
+            .notification-wrapp-item_img
+              %img{:src => "../static/images/avatar/skyderby.png"}/
+              %span.label.location.aqua
+            .notification-wrapp-item_content
+              %p
+                %a.name{:href => "#"} Skyderby
+                добавил новую дропзону
+                %a{:href => "#"} «DZ Крутицы»
+              .notification-wrapp-item_content-date 6 дек в 19:51
+
     .user

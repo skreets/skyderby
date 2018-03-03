@@ -690,6 +690,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/app\/jquery\/_desktop\/layout.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/static\/jquery\/layout.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/app\/jquery\/_desktop\/profil-main.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2387,20 +2397,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/public\/_mobile\/profilMain.html",
-		"oF": 0
-		},
-	"\/public\/header.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/header.html",
-		"oF": 0
-		},
-	"\/public\/notification.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/notification.html",
 		"oF": 0
 		},
 	"\/public\/static\/css\/desktop.css": {

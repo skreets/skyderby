@@ -273,64 +273,65 @@
 					}
 				}
 			}
-		}
 
-		&_copy {
-			width: 100%;
-			color: #fff;
-			flex: 0 1 auto;
-			font: 12px/12px $pn-l;
-			margin-bottom: 10px;
-
-			@include respond-to(laptop) {
-				width: 80px;
-				font: 10px/10px $pn-l;
-				margin-left: 175px;
-				text-align: center;
-			}
-
-			@include respond-to(desktop) {
+			&_copy {
 				width: 100%;
+				color: #fff;
+				flex: 0 1 auto;
 				font: 12px/12px $pn-l;
-				margin-left: 0;
+				margin-bottom: 10px;
+
+				@include respond-to(laptop) {
+					width: 80px;
+					font: 10px/10px $pn-l;
+					margin-left: 175px;
+					text-align: center;
+				}
+
+				@include respond-to(desktop) {
+					width: 100%;
+					font: 12px/12px $pn-l;
+					margin-left: 0;
+				}
+
+				p {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					.icon {
+
+						&:before {
+							content: $icon-heart;
+							font: 8px $icon;
+							color: #ff9191;
+							margin: 0 4px;
+						}
+					}
+
+					&:first-child {
+						padding-bottom: 2px;
+					}
+
+					&:last-child {
+
+						@include respond-to(laptop) {
+							display: none;
+						}
+
+						@include respond-to(desktop) {
+							display: flex;
+						}
+					}
+				}
 			}
 
-			p {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-
-				.icon {
-
-					&:before {
-						content: $icon-heart;
-		        font: 8px $icon;
-		        color: #ff9191;
-						margin: 0 4px;
-					}
-				}
-
-				&:first-child {
-					padding-bottom: 2px;
-				}
-
-				&:last-child {
-
-					@include respond-to(laptop) {
-						display: none;
-					}
-
-					@include respond-to(desktop) {
-						display: flex;
-					}
-				}
-			}
 		}
-	}
 
-	.os-content {
-		min-height: 100vh;
-		display: flex;
-		flex-direction: column;
+		.os-content {
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+		}
 	}
 }

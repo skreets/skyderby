@@ -131,6 +131,7 @@
 				.notify {
 					width: 70px;
 					height: 70px;
+					position: relative;
 					display: flex;
 				  justify-content: center;
 				  align-items: center;
@@ -177,6 +178,52 @@
 									color: $blue;
 								}
 							}
+						}
+					}
+
+					.notification {
+					  width: 360px;
+					  top: 70px; left: 50%;
+						margin-left: -180px;
+						box-shadow: 0 15px 55px 0 rgba(0,0,0,.08);
+						border-top: 1px solid $border;
+
+					  &-wrapp {
+					    height: 350px;
+							overflow-y: scroll;
+
+							&-item {
+								overflow: auto;
+							}
+
+							&:before {
+								content: '';
+						    width: 0;
+						    height: 0;
+						    border-style: solid;
+						    border-width: 0 7px 7px 7px;
+						    border-color: transparent transparent $border transparent;
+						    position: absolute;
+						    top: -7px; right: 173px;
+							}
+					  }
+
+
+					  &:before {
+					    top: -5px; right: 173px;
+							z-index: 2;
+					  }
+
+						&:after {
+							content: '';
+							width: 0;
+							height: 0;
+							border-style: solid;
+							border-width: 0 7px 7px 7px;
+							border-color: transparent transparent $border transparent;
+							position: absolute;
+							top: -7px; right: 173px;
+							z-index: 1;
 						}
 					}
 				}

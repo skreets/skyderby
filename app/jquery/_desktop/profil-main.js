@@ -2,7 +2,7 @@
 
 $(window).on('load',function(){
 
-  $('.sidebar').overlayScrollbars({
+  $('.sidebar_wrapp').overlayScrollbars({
     className: 'os-theme-thin-light',
     scrollbars: {
       autoHide: 'leave',
@@ -13,5 +13,15 @@ $(window).on('load',function(){
 });
 
 $(document).ready(function(){
+  $('body').on('click', '.notify', function(){
+    $('.notification').fadeToggle();
+  });
 
+  $('.notification-wrapp').overlayScrollbars({
+    className: 'os-theme-thin-dark',
+    scrollbars: {
+      autoHide: 'leave',
+      autoHideDelay: 0,
+    }
+  });
 });
