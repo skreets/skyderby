@@ -2,7 +2,7 @@
 
 $(window).on('load',function(){
 
-  $('.sidebar_wrapp').overlayScrollbars({
+  $('.sidebar').overlayScrollbars({
     className: 'os-theme-thin-light',
     scrollbars: {
       autoHide: 'leave',

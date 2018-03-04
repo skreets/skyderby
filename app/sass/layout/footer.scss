@@ -1,9 +1,31 @@
 footer {
-  width: 100%;
-  color: $text;
-  display: block;
-  font: 12px/12px $pn-l;
-  margin-bottom: 10px;
+
+  @include respond-to(mobile) {
+    width: 100%;
+    color: $text;
+    display: block;
+    font: 12px/12px $pn-l;
+    margin-bottom: 10px;
+  }
+
+  @include respond-to(laptop) {
+    width: 80px;
+    color: #fff;
+    flex: 0 1 auto;
+    font: 10px/10px $pn-l;
+    margin-left: 175px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  @include respond-to(desktop) {
+    width: 100%;
+    color: #fff;
+    flex: 0 1 auto;
+    font: 12px/12px $pn-l;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
 
   p {
     display: flex;
@@ -23,6 +45,16 @@ footer {
     &:first-child {
       padding-bottom: 2px;
     }
-  }
 
+    &:last-child {
+
+      @include respond-to(laptop) {
+        display: none;
+      }
+
+      @include respond-to(desktop) {
+        display: flex;
+      }
+    }
+  }
 }

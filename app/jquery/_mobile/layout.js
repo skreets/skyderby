@@ -10,6 +10,7 @@ $(document).ready(function(){
 
   $('body').on('click', '.burger', function() {
     $(this).addClass('active');
+    $('.notification').fadeOut();
     $('html, body').addClass('overflow');
     $('.page-overlay').fadeIn();
     $('.menu').addClass('active');

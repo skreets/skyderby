@@ -17,11 +17,7 @@
 		}
 
 		&_head {
-			height: 70px;
-			flex: 0 1 auto;
-			display: flex;
-		  justify-content: center;
-		  align-items: center;
+			padding: 16px 0;
 			position: relative;
 			background: $sidebar-light;
 
@@ -46,7 +42,7 @@
 					content: $icon-skyderby;
 					color: #fff;
 					font: 38px $icon;
-					margin: 0 15px 0 0;
+					margin: 0 15px;
 				}
 			}
 
@@ -59,7 +55,7 @@
 					}
 
 					&:before {
-						margin: 0 -27px 0 20px;
+						margin: 0 16px 0 20px;
 					}
 				}
 			}
@@ -73,7 +69,7 @@
 					}
 
 					&:before {
-						margin: 0 15px 0 0;
+						margin: 0 15px;
 					}
 				}
 			}
@@ -273,59 +269,6 @@
 					}
 				}
 			}
-
-			&_copy {
-				width: 100%;
-				color: #fff;
-				flex: 0 1 auto;
-				font: 12px/12px $pn-l;
-				margin-bottom: 10px;
-
-				@include respond-to(laptop) {
-					width: 80px;
-					font: 10px/10px $pn-l;
-					margin-left: 175px;
-					text-align: center;
-				}
-
-				@include respond-to(desktop) {
-					width: 100%;
-					font: 12px/12px $pn-l;
-					margin-left: 0;
-				}
-
-				p {
-					display: flex;
-					justify-content: center;
-					align-items: center;
-
-					.icon {
-
-						&:before {
-							content: $icon-heart;
-							font: 8px $icon;
-							color: #ff9191;
-							margin: 0 4px;
-						}
-					}
-
-					&:first-child {
-						padding-bottom: 2px;
-					}
-
-					&:last-child {
-
-						@include respond-to(laptop) {
-							display: none;
-						}
-
-						@include respond-to(desktop) {
-							display: flex;
-						}
-					}
-				}
-			}
-
 		}
 
 		.os-content {

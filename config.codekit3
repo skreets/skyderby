@@ -899,6 +899,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/app\/sass\/layout\/hack.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/hack.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/app\/sass\/layout\/notification.scss": {
 		"aP": 0,
 		"bl": 0,
