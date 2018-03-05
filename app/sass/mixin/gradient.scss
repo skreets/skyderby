@@ -5,6 +5,12 @@
 	background: linear-gradient(to right,  $color-gh-1 0%, $color-gh-2 100%);
 }
 
+@mixin gradient-horizontal-3dot($color-gh-3dot-1, $color-gh-3dot-2, $color-gh-3dot-3) {
+	background: -moz-linear-gradient(left,  $color-gh-3dot-1 0%, $color-gh-3dot-2 50%, $color-gh-3dot-3 100%);
+	background: -webkit-linear-gradient(left,  $color-gh-3dot-1 0%, $color-gh-3dot-2 50%, $color-gh-3dot-3 100%);
+	background: linear-gradient(to right,  $color-gh-3dot-1 0%, $color-gh-3dot-2 50%, $color-gh-3dot-3 100%);
+}
+
 @mixin gradient-vertical($color-gv-1, $color-gv-2) {
 	background: $color-gv-1;
 	background: -moz-linear-gradient(top,  $color-gv-1 0%, $color-gv-2 100%);

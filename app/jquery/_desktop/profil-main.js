@@ -1,5 +1,3 @@
-
-
 $(window).on('load',function(){
 
   $('.sidebar').overlayScrollbars({

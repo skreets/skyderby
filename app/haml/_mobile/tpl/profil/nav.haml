@@ -1,23 +1,15 @@
 .section_header
-  %span.section_header_burger
-  .section_header_user
-    %a.add{:href => "#"}
-      %span
-        Загрузить трек
-    .notify
-      %span.icon.new
-    .user
-
-%ul.section_header_nav
-  %li.active
-    %a{:href => "#"}
-      Общее
-  %li
-    %a{:href => "#"}
-      Треки
-  %li
-    %a{:href => "#"}
-      Профиль полетов
-  %li
-    %a{:href => "#"}
-      Видео
+  .section_header_wrapp
+    %ul.section_header_nav
+      %li.active
+        %a{:href => 'profilMain.html'}
+          Общее
+      %li.swiper-slide
+        %a{:href => '#'}
+          Треки
+      %li.swiper-slide
+        %a{:gref => '#'}
+          Профиль полетов
+      %li.swiper-slide
+        %a{:href => '#'}
+          Видео
