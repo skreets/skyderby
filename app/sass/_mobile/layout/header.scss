@@ -380,6 +380,7 @@ header {
 .notification {
   width: 100%;
   top: 70px;
+  position: fixed;
 
   &_wrapp {
     height: 350px;
