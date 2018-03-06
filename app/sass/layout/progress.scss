@@ -8,14 +8,14 @@
 
 		@include respond-to(mobile) {
 
-			&-text {
+			&_text {
 				max-width: 200px;
 				white-space: nowrap;
 				overflow: hidden;
 			}
 		}
 
-		&-icon {
+		&_icon {
 			width: 39px;
 			height: 39px;
 			background: #000;
@@ -33,7 +33,7 @@
 			}
 		}
 
-		&-text {
+		&_text {
 			color: $text;
 			font: 14px/18px $pn-r;
 			padding: 7px 15px 7px 29px;
@@ -52,7 +52,7 @@
 			}
 		}
 
-		&-top {
+		&_top {
 
 			&:before {
 				content: '';
@@ -79,7 +79,7 @@
 			}
 		}
 
-		&-bottom {
+		&_bottom {
 
 			&:before {
 				content: '';
@@ -108,7 +108,7 @@
 
 		&.gold {
 
-			.progress-icon {
+			.progress_icon {
 				background: $gold;
 				border-color: $gold-light;
 
@@ -121,7 +121,7 @@
 
 			&.online {
 
-				.progress-icon {
+				.progress_icon {
 
 					&:before {
 						content: $icon-star;
@@ -132,7 +132,7 @@
 
 		&.silver {
 
-			.progress-icon {
+			.progress_icon {
 				background: $silver;
 				border-color: $silver-light;
 
@@ -145,7 +145,7 @@
 
 			&.online {
 
-				.progress-icon {
+				.progress_icon {
 
 					&:before {
 						content: $icon-star;
@@ -156,7 +156,7 @@
 
 		&.bronze {
 
-			.progress-icon {
+			.progress_icon {
 				background: $bronze;
 				border-color: $bronze-light;
 
@@ -169,7 +169,7 @@
 
 			&.online {
 
-				.progress-icon {
+				.progress_icon {
 
 					&:before {
 						content: $icon-star;
@@ -180,7 +180,7 @@
 
 		&.legend {
 
-			.progress-icon {
+			.progress_icon {
 				background: $red;
 				border-color: $red-light;
 
@@ -195,7 +195,7 @@
 		&.skyderby {
 			top: -4px;
 
-			.progress-icon {
+			.progress_icon {
 				background: $blue;
 				border-color: $blue-light;
 
@@ -210,7 +210,7 @@
 		&.donate {
 			top: -4px;
 
-			.progress-icon {
+			.progress_icon {
 				background: $green;
 				border-color: $green-light;
 

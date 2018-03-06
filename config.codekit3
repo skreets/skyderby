@@ -525,20 +525,6 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
-	"\/app\/haml\/_mobile\/tpl\/profil\/sidebar.haml": {
-		"cB": 0,
-		"cDA": 0,
-		"eHT": 0,
-		"ft": 256,
-		"nEA": 0,
-		"oA": 0,
-		"oAP": "\/public\/sidebar.html",
-		"oF": 0,
-		"oFM": 2,
-		"oS": 0,
-		"uDQ": 0,
-		"uUN": 0
-		},
 	"\/app\/haml\/_mobile\/tpl\/profil\/track.haml": {
 		"cB": 0,
 		"cDA": 0,
@@ -4543,13 +4529,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/public\/_mobile\/profilMain.html",
-		"oF": 0
-		},
-	"\/public\/main.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/main.html",
 		"oF": 0
 		},
 	"\/public\/static\/css\/desktop.css": {

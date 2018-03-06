@@ -15,7 +15,7 @@ $(document).ready(function(){
     $('.notification').fadeToggle();
   });
 
-  $('.notification-wrapp').overlayScrollbars({
+  $('.notification_wrapp').overlayScrollbars({
     className: 'os-theme-thin-dark',
     scrollbars: {
       autoHide: 'leave',

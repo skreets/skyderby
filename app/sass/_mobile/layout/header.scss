@@ -16,7 +16,7 @@ header {
     padding: 0 $_25 0 $_20;
     background: $sidebar-light;
 
-    &-nav {
+    &_nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -136,14 +136,14 @@ header {
   z-index: 31;
   @include transition-delay(all 350ms ease-in-out, 0);
 
-  &-user {
+  &_user {
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: $sidebar-light;
 
-    &-profil {
+    &_profil {
       display: flex;
       align-items: center;
       text-decoration: none;
@@ -166,7 +166,7 @@ header {
       }
     }
 
-    &-nav {
+    &_nav {
       width: 110px;
       margin-right: 20px;
       display: flex;
@@ -381,7 +381,7 @@ header {
   width: 100%;
   top: 70px;
 
-  &-wrapp {
+  &_wrapp {
     height: 350px;
     overflow-y: scroll;
   }

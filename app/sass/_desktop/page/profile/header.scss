@@ -53,13 +53,6 @@
 							}
 						}
 					}
-
-					&:first-child {
-
-						@include respond-to(laptop) {
-							display: none;
-						}
-					}
 				}
 			}
 
@@ -188,11 +181,11 @@
 						box-shadow: 0 15px 55px 0 rgba(0,0,0,.08);
 						border-top: 1px solid $border;
 
-					  &-wrapp {
+					  &_wrapp {
 					    height: 350px;
 							overflow-y: scroll;
 
-							&-item {
+							&_item {
 								overflow: auto;
 							}
 

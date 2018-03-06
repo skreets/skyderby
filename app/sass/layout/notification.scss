@@ -6,7 +6,7 @@
   box-shadow: 1px 0 25px 0 rgba(0,0,0,.15);
   z-index: 3;
 
-  &-title {
+  &_title {
     height: 52px;
     font: 16px/16px $pn-r;
     display: flex;
@@ -15,9 +15,9 @@
     border-bottom: 1px solid $border;
   }
 
-  &-wrapp {
+  &_wrapp {
 
-    &-item {
+    &_item {
       display: flex;
       padding: 20px 20px 17px;
       border-bottom: 1px solid $border;
@@ -151,7 +151,7 @@
           }
         }
 
-        &-date {
+        &_date {
           color: #999;
           font: 12px/12px $pn-r;
           margin-top: 4px;
