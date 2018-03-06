@@ -1,0 +1,11 @@
+@mixin rgba-bg($property, $background: transparent, $opacity: 1) {
+	#{$property}: rgba($background, $opacity);
+}
+
+@mixin rgba-cr($property, $color: transparent, $opacity: 1) {
+	#{$property}: rgba($color, $opacity);
+}
+
+@mixin brd-cr($property, $border-color: transparent, $opacity: 1) {
+	#{$property}: rgba($border-color, $opacity);
+}

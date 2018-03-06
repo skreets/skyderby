@@ -1,1 +1,84 @@
-.paginator {}
+.paginator {
+  width: 100%;
+  margin: 10px 0 32px;
+
+  &_wrapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      font: 28px/38px $pn-l;
+      margin: 0 15px;
+
+      a {
+        color: $text;
+        text-decoration: none;
+        padding-bottom: 3px;
+        border-bottom: 2px solid $tr;
+        @include transition;
+
+        @include respond-to(laptop) {
+
+          &:hover {
+            color: $blue;
+          }
+        }
+      }
+
+      span {
+        color: $blue;
+        padding-bottom: 3px;
+        border-bottom: 2px solid $blue;
+      }
+
+      &.prev {
+
+        a, span {
+          width: 20px;
+          height: 20px;
+          position: relative;
+          display: block;
+          border-color: $tr;
+
+          &:before {
+            content: $icon-arrow-light;
+            font: 14px/14px $icon;
+            display: block;
+            position: absolute;
+            top: 5px; left: 6px;
+            @include transform(rotate(180deg));
+          }
+        }
+
+        span {
+          color: $text;
+        }
+      }
+
+      &.next {
+
+        a, span {
+          width: 20px;
+          height: 20px;
+          position: relative;
+          display: block;
+          border-color: $tr;
+
+          &:before {
+            content: $icon-arrow-light;
+            font: 14px/14px $icon;
+            display: block;
+            position: absolute;
+            top: 5px; right: 6px;
+            @include transform(rotate(0deg));
+          }
+        }
+
+        span {
+          color: $text;
+        }
+      }
+    }
+  }
+}

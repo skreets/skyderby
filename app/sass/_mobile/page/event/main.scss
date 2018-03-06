@@ -3,4 +3,213 @@
 	flex-wrap: wrap;
 	flex-direction: column;
 	overflow-x: hidden;
+
+	.main {
+
+		&_item {
+			display: flex;
+			border: 1px solid $border;
+			padding-bottom: 20px;
+			margin-bottom: 20px;
+			text-decoration: none;
+			background: #fff;
+
+			&_sidebar {
+				width: 41px;
+				margin-right: 20px;
+
+				&_date {
+					width: 47px;
+					height: 33px;
+					display: flex;
+				  justify-content: center;
+				  align-items: center;
+					flex-direction: column;
+					position: relative;
+					color: #fff;
+					margin: 20px 0 0 -5px;
+					background: $blue-hover;
+					font: 16px/14px $pn-l;
+
+					span {
+						font-size: 10px;
+						margin-bottom: -3px;
+					}
+
+					&:before {
+						content: '';
+						width: 0;
+						height: 0;
+						border-style: solid;
+						border-width: 0 0 4px 4px;
+						border-color: transparent transparent #007bff transparent;
+						position: absolute;
+						top: -4px; left: 0;
+					}
+				}
+
+				&_label {
+					width: 40px;
+					height: 15px;
+					color: $gray;
+					font: 10px/16px $pn-l;
+					text-align: center;
+					border-left: 2px solid $gray;
+					margin: 5px 0 0 -1px;
+					background: $bg;
+
+					&.red {
+						color: #ff7e7e;
+						border-color: #ff7e7e;
+						@include rgba-bg(background, #ff7e7e, .1);
+					}
+
+					&.blue {
+						color: $blue;
+						border-color: $blue;
+						@include rgba-bg(background, $blue, .1);
+					}
+
+					&.aqua {
+						color: $aqua;
+						border-color: $aqua;
+						@include rgba-bg(background, $aqua, .1);
+					}
+
+					&.green {
+						color: $green;
+						border-color: $green;
+						@include rgba-bg(background, $green, .1);
+					}
+
+					&.orange {
+						color: $bronze;
+						border-color: $bronze;
+						@include rgba-bg(background, $bronze, .1);
+					}
+
+					&.dark {
+						color: $text;
+						border-color: $text;
+						@include rgba-bg(background, $text, .1);
+					}
+				}
+			}
+
+			&_content {
+				width: calc(100% - 80px);
+
+				&_title {
+					color: $blue;
+					font: 20px/26px $pn-r;
+					margin: 15px 0 11px;
+				}
+
+				&_location {
+					color: $text;
+					font: 12px/12px $pn-r;
+					margin-bottom: 9px;
+
+					span {
+						color: $blue;
+						text-transform: uppercase;
+
+						&:before {
+							content: '//';
+							color: $gray-light;
+						}
+					}
+
+					&:before {
+						content: $icon-location;
+						font: 10px $icon;
+						color: $gray;
+					}
+				}
+
+				&_class {
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					position: relative;
+					padding-left: 12px;
+
+					p {
+						width: auto;
+						color: $text;
+						font: 12px/16px $pn-r;
+
+						span {
+							color: $blue;
+						}
+
+						&:after {
+							content: '//';
+							color: $gray-light;
+							margin-right: 5px;
+						}
+
+						&:first-letter {
+							text-transform: uppercase;
+						}
+
+						&:last-child {
+
+							&:after {
+								display: none;
+							}
+						}
+					}
+
+					&:before {
+						content: $icon-wingsuit;
+						font: 10px $icon;
+						color: $gray;
+						position: absolute;
+						top: 2px; left: -2px;
+					}
+				}
+
+				&_rules {
+					color: $text;
+					font: 12px/12px $pn-r;
+
+					span {
+						color: $gray;
+					}
+				}
+
+				&_window {
+					color: $text;
+					font: 12px/12px $pn-r;
+					margin-top: 9px;
+
+					span {
+						color: $gray;
+					}
+				}
+
+				hr {
+					border: 0;
+					border-top: 1px solid #eee;
+					margin: 12px 0 16px;
+				}
+			}
+
+			&.online {
+
+				.main_item_sidebar_date {
+					background: $green;
+
+					&:before {
+						border-color: transparent transparent #489148 transparent;
+					}
+				}
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
 }
