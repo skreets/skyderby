@@ -413,6 +413,20 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
+	"\/app\/haml\/_mobile\/eventMain.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/_mobile\/eventMain.html",
+		"oF": 2,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
 	"\/app\/haml\/_mobile\/profilMain.haml": {
 		"cB": 0,
 		"cDA": 0,
@@ -422,6 +436,20 @@
 		"oA": 0,
 		"oAP": "\/public\/_mobile\/profilMain.html",
 		"oF": 2,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/app\/haml\/_mobile\/tpl\/event\/main.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/main.html",
+		"oF": 0,
 		"oFM": 2,
 		"oS": 0,
 		"uDQ": 0,
@@ -710,6 +738,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/app\/jquery\/_mobile\/event-main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/static\/jquery\/mobile\/event-main.min.js",
+		"oF": 2,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/app\/jquery\/_mobile\/layout.js": {
 		"ft": 64,
 		"ma": 0,
@@ -808,6 +846,45 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/app\/sass\/_mobile\/layout\/section.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/_mobile\/page\/event\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/_mobile\/page\/event\/section.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/app\/sass\/_mobile\/page\/profile\/header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -830,19 +907,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/public\/static\/css\/main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/sass\/_mobile\/page\/profile\/section.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/public\/static\/css\/section.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -921,6 +985,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/public\/static\/css\/notification.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/layout\/paginator.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/paginator.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -3209,7 +3286,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/swiper\/dist\/js\/swiper.min.js",
 		"oF": 0,
 		"sC": 3,
@@ -4454,11 +4531,25 @@
 		"oAP": "\/public\/_desktop\/profilMain.html",
 		"oF": 0
 		},
+	"\/public\/_mobile\/eventMain.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/_mobile\/eventMain.html",
+		"oF": 0
+		},
 	"\/public\/_mobile\/profilMain.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/public\/_mobile\/profilMain.html",
+		"oF": 0
+		},
+	"\/public\/main.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/main.html",
 		"oF": 0
 		},
 	"\/public\/static\/css\/desktop.css": {
@@ -4997,6 +5088,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/public\/static\/jquery\/mobile\/event-main.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/static\/jquery\/event-main.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/public\/static\/jquery\/mobile\/profil-main.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -5025,6 +5126,20 @@
 			"type": 0
 			}
 		],
+	"\/app\/jquery\/_mobile\/event-main.js": [
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/app\/jquery\/_mobile\/layout.js",
+			"position": 1,
+			"type": 0
+			}
+		],
 	"\/app\/jquery\/_mobile\/profil-main.js": [
 		{
 			"followForSyntaxChecking": 0,
@@ -5034,14 +5149,8 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/swiper\/dist\/js\/swiper.min.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/app\/jquery\/_mobile\/layout.js",
-			"position": 2,
+			"position": 1,
 			"type": 0
 			}
 		]

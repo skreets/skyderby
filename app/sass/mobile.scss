@@ -19,12 +19,17 @@
 @import 'layout/base';
 @import 'layout/progress';
 @import 'layout/notification';
+@import 'layout/paginator';
 @import 'layout/footer';
 @import '_mobile/layout/base';
 @import '_mobile/layout/header';
+@import '_mobile/layout/section';
+
+// Event
+@import '_mobile/page/event/main';
+@import '_mobile/page/event/section';
 
 // Profil
 @import '_mobile/page/profile/main';
 @import '_mobile/page/profile/header';
-@import '_mobile/page/profile/section';
 @import '_mobile/page/profile/track';
