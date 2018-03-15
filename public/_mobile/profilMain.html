@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+  <head lang='ru'>
+    <title>Dashboard // SkyDerby</title>
+    <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='Russian' name='language'>
+    <meta content='3' name='revisit-after'>
+    <meta content='[sd]team' name='author'>
+    <link href='../static/images/favicon.png' rel='shortcut icon'>
+    <link href='../static/css/mobile.css' media='screen, projection' rel='stylesheet' type='text/css'>
+    <script src='../static/jquery/mobile/profil-main.min.js' type='text/javascript'></script>
+  </head>
+  <body class='profil'>
+    <header>
+      <div class='head'>
+        <a href='index.html'>
+          <span>
+            SkyDerby
+          </span>
+        </a>
+        <div class='head_nav'>
+          <a class='notif active' href='javascript:void(0);'></a>
+          <a class='burger' href='javascript:void(0);'></a>
+        </div>
+      </div>
+    </header>
+    <div class='page_overlay'></div>
+    <div class='menu'>
+      <div class='menu_user'>
+        <a class='menu_user_profil' href='#'>
+          <img src='../static/images/avatar/user.png'>
+          <p>Александр Жариков</p>
+        </a>
+        <ul class='menu_user_nav'>
+          <li>
+            <a class='lang' href='#'>
+              rus
+            </a>
+            <ul>
+              <li>
+                <a class='active' data-lang='rus' href='javascript:void(0);'>
+                  Russian
+                </a>
+              </li>
+              <li>
+                <a data-lang='eng' href='javascript:void(0);'>
+                  English
+                </a>
+              </li>
+              <li>
+                <a data-lang='det' href='javascript:void(0);'>
+                  Deutsch
+                </a>
+              </li>
+              <li>
+                <a data-lang='spa' href='javascript:void(0);'>
+                  Spainish
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class='exit' href='#'></a>
+          </li>
+          <li>
+            <a class='close' href='#'></a>
+          </li>
+        </ul>
+      </div>
+      <ul class='menu_nav'>
+        <li class='active'>
+          <a class='dashboard' href='profilMain.html'>
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a class='online' href='#'>
+            Онлайн соревнования
+          </a>
+        </li>
+        <li>
+          <a class='competitions' href='eventMain.html'>
+            Соревнования
+          </a>
+        </li>
+        <li>
+          <a class='track' href='#'>
+            Треки
+          </a>
+        </li>
+        <li>
+          <a class='location' href='#'>
+            Локации
+          </a>
+        </li>
+        <li>
+          <a class='suit' href='#'>
+            Костюмы
+          </a>
+        </li>
+        <li>
+          <a class='about' href='#'>
+            О проекте
+          </a>
+        </li>
+        <li>
+          <a class='add' href='javascript:void(0);'>
+            Загрузить трек
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='notification'>
+      <div class='notification_title'>
+        Новые уведомления
+      </div>
+      <div class='notification_wrapp'>
+        <div class='notification_wrapp_item new'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/skyderby.png'>
+            <span class='label rss orange'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Skyderby</a>
+              новости сайта
+              <a href='#'>«На странице трэка появилась возможность...»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>только что</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/skyderby.png'>
+            <span class='label star red'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Skyderby</a>
+              пилот
+              <a href='#'>«Александр Кунин»</a>
+              обошел вас в категории
+              <a href='#'>«Monosuit Time»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>час назад</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/airglide.png'>
+            <span class='label plus green'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Airglide</a>
+              создал новое соревнование
+              <a href='#'>«Airglide Competition 2018»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>3 часа назад</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item cup'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/cup_gold.png'>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <span class='name'>Поздравляем!</span>
+              вы заняли первое место на
+              <a href='#'>«BWS Cup 2017»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>сегодня в 12:37</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/phoenix-fly.png'>
+            <span class='label plus green'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Phoenix-fly</a>
+              добавил новый костюм
+              <a href='#'>«Onesie»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>вчера в 14:35</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/skyderby.png'>
+            <span class='label location aqua'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Skyderby</a>
+              добавил новую дропзону
+              <a href='#'>«DZ Крутицы»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>6 дек в 19:51</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='section'>
+      <div class='section_header'>
+        <div class='section_header_wrapp'>
+          <ul class='section_header_nav'>
+            <li class='active'>
+              <a href='profilMain.html'>
+                Общее
+              </a>
+            </li>
+            <li>
+              <a href='#'>
+                Треки
+              </a>
+            </li>
+            <li>
+              <a gref='#'>
+                Профиль полетов
+              </a>
+            </li>
+            <li>
+              <a href='#'>
+                Видео
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='section_item'>
+        <div class='section_item_head'>
+          <div class='section_item_head_title'>Треки</div>
+        </div>
+        <div class='track'>
+          <div class='track_info'>
+            <div class='track_info_number'>#12363</div>
+            <div class='track_info_date'>11.02.2018</div>
+          </div>
+          <div class='track_pilot'>
+            <div class='track_pilot_user'>Александр Кунин</div>
+            <div class='track_pilot_country'>RUS</div>
+          </div>
+          <div class='track_wrapp'>
+            <div class='track_wrapp_location'>
+              <div class='track_wrapp_location_name'>DZ Skycenter</div>
+              <div class='track_wrapp_location_country'>RUS</div>
+            </div>
+            <div class='track_wrapp_suit'>
+              <span>TS</span>
+              Rebel Freebird
+            </div>
+          </div>
+          <div class='track_comments'></div>
+        </div>
+        <div class='track'>
+          <div class='track_info'>
+            <div class='track_info_number'>#12485</div>
+            <div class='track_info_date'>04.03.2018</div>
+          </div>
+          <div class='track_pilot'>
+            <div class='track_pilot_user'>Александр Жариков</div>
+            <div class='track_pilot_country'>RUS</div>
+          </div>
+          <div class='track_wrapp'>
+            <div class='track_wrapp_location'>
+              <div class='track_wrapp_location_name'>DZ Rosario Paracaidismo</div>
+              <div class='track_wrapp_location_country'>ARG</div>
+            </div>
+            <div class='track_wrapp_suit'>
+              <span>AI</span>
+              Barracuda Freestyle
+            </div>
+          </div>
+          <div class='track_comments'>Jump we made in not so nice conditions. high south wind, not really going for speed at all. more in a week.</div>
+        </div>
+        <div class='track'>
+          <div class='track_info'>
+            <div class='track_info_number'>#12363</div>
+            <div class='track_info_date'>11.02.2018</div>
+          </div>
+          <div class='track_pilot'>
+            <div class='track_pilot_user'>Константин Константинопольский</div>
+            <div class='track_pilot_country'>FRA</div>
+          </div>
+          <div class='track_wrapp'>
+            <div class='track_wrapp_location'>
+              <div class='track_wrapp_location_name'>Brento</div>
+              <div class='track_wrapp_location_country'>ITA</div>
+            </div>
+            <div class='track_wrapp_suit'>
+              <span>AG</span>
+              Mono
+            </div>
+          </div>
+          <div class='track_comments'></div>
+        </div>
+      </div>
+      <div class='section_item'>
+        <div class='section_item_head'>
+          <div class='section_item_head_title'>Достижения</div>
+        </div>
+        <div class='progress gold'>
+          <div class='progress_icon'></div>
+          <div class='progress_text'>
+            BWS Cup 2017
+            <span>Tracksuit</span>
+          </div>
+          <div class='progress_top'></div>
+          <div class='progress_bottom'></div>
+        </div>
+        <div class='progress silver'>
+          <div class='progress_icon'></div>
+          <div class='progress_text'>
+            Borki GPS Performance 2014
+            <span>Intermediate</span>
+          </div>
+          <div class='progress_top'></div>
+          <div class='progress_bottom'></div>
+        </div>
+        <div class='progress bronze'>
+          <div class='progress_icon'></div>
+          <div class='progress_text'>
+            Russian CFO Championship 2017
+            <span>Advanced</span>
+          </div>
+          <div class='progress_top'></div>
+          <div class='progress_bottom'></div>
+        </div>
+        <div class='progress legend one'>
+          <div class='progress_icon'></div>
+          <div class='progress_text'>Легенда</div>
+          <div class='progress_top'></div>
+          <div class='progress_bottom'></div>
+        </div>
+        <div class='progress skyderby'>
+          <div class='progress_icon'></div>
+          <div class='progress_text'>
+            SKYDERBY
+            <span>CEO</span>
+          </div>
+          <div class='progress_top'></div>
+          <div class='progress_bottom'></div>
+        </div>
+        <div class='progress donate'>
+          <div class='progress_icon'></div>
+          <div class='progress_text'>
+            DONATE
+            <span>200$</span>
+          </div>
+          <div class='progress_top'></div>
+          <div class='progress_bottom'></div>
+        </div>
+        <div class='progress gold online'>
+          <div class='progress_icon'></div>
+          <div class='progress_text'>
+            Monotrack Speed Challenge
+            <span>Tracksuit</span>
+          </div>
+          <div class='progress_top'></div>
+          <div class='progress_bottom'></div>
+        </div>
+        <div class='progress silver online'>
+          <div class='progress_icon'></div>
+          <div class='progress_text'>
+            Monotrack Distance Challenge
+            <span>Tracksuit</span>
+          </div>
+          <div class='progress_top'></div>
+          <div class='progress_bottom'></div>
+        </div>
+        <div class='progress bronze online'>
+          <div class='progress_icon'></div>
+          <div class='progress_text'>
+            Monotracks Open 60 sec
+            <span>Tracksuit</span>
+          </div>
+          <div class='progress_top'></div>
+          <div class='progress_bottom'></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>© 2014 - 2018 SKYDERBY</p>
+      <p>
+        Made by
+        <span class='icon'></span>
+        Skyderby Team
+      </p>
+    </footer>
+  </body>
+</html>

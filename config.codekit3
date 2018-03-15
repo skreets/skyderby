@@ -7,7 +7,7 @@
 		"uuidString": "6B4358C0-7875-4F5C-B7B4-EDDC03F3E6AD"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -4529,13 +4529,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"\/public\/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/.gitignore",
-		"oF": 0
 		},
 	"\/public\/_desktop\/profilMain.html": {
 		"cB": 0,

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+  <head lang='ru'>
+    <title>Cоревнования // SkyDerby</title>
+    <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='Russian' name='language'>
+    <meta content='3' name='revisit-after'>
+    <meta content='[sd]team' name='author'>
+    <link href='../static/images/favicon.png' rel='shortcut icon'>
+    <link href='../static/css/mobile.css' media='screen, projection' rel='stylesheet' type='text/css'>
+    <script src='../static/jquery/mobile/event-main.min.js' type='text/javascript'></script>
+  </head>
+  <body class='event'>
+    <header>
+      <div class='head'>
+        <a href='index.html'>
+          <span>
+            SkyDerby
+          </span>
+        </a>
+        <div class='head_nav'>
+          <a class='notif active' href='javascript:void(0);'></a>
+          <a class='burger' href='javascript:void(0);'></a>
+        </div>
+      </div>
+    </header>
+    <div class='page_overlay'></div>
+    <div class='menu'>
+      <div class='menu_user'>
+        <a class='menu_user_profil' href='#'>
+          <img src='../static/images/avatar/user.png'>
+          <p>Александр Жариков</p>
+        </a>
+        <ul class='menu_user_nav'>
+          <li>
+            <a class='lang' href='#'>
+              rus
+            </a>
+            <ul>
+              <li>
+                <a class='active' data-lang='rus' href='javascript:void(0);'>
+                  Russian
+                </a>
+              </li>
+              <li>
+                <a data-lang='eng' href='javascript:void(0);'>
+                  English
+                </a>
+              </li>
+              <li>
+                <a data-lang='det' href='javascript:void(0);'>
+                  Deutsch
+                </a>
+              </li>
+              <li>
+                <a data-lang='spa' href='javascript:void(0);'>
+                  Spainish
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class='exit' href='#'></a>
+          </li>
+          <li>
+            <a class='close' href='#'></a>
+          </li>
+        </ul>
+      </div>
+      <ul class='menu_nav'>
+        <li class='active'>
+          <a class='dashboard' href='profilMain.html'>
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a class='online' href='#'>
+            Онлайн соревнования
+          </a>
+        </li>
+        <li>
+          <a class='competitions' href='eventMain.html'>
+            Соревнования
+          </a>
+        </li>
+        <li>
+          <a class='track' href='#'>
+            Треки
+          </a>
+        </li>
+        <li>
+          <a class='location' href='#'>
+            Локации
+          </a>
+        </li>
+        <li>
+          <a class='suit' href='#'>
+            Костюмы
+          </a>
+        </li>
+        <li>
+          <a class='about' href='#'>
+            О проекте
+          </a>
+        </li>
+        <li>
+          <a class='add' href='javascript:void(0);'>
+            Загрузить трек
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='notification'>
+      <div class='notification_title'>
+        Новые уведомления
+      </div>
+      <div class='notification_wrapp'>
+        <div class='notification_wrapp_item new'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/skyderby.png'>
+            <span class='label rss orange'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Skyderby</a>
+              новости сайта
+              <a href='#'>«На странице трэка появилась возможность...»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>только что</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/skyderby.png'>
+            <span class='label star red'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Skyderby</a>
+              пилот
+              <a href='#'>«Александр Кунин»</a>
+              обошел вас в категории
+              <a href='#'>«Monosuit Time»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>час назад</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/airglide.png'>
+            <span class='label plus green'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Airglide</a>
+              создал новое соревнование
+              <a href='#'>«Airglide Competition 2018»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>3 часа назад</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item cup'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/cup_gold.png'>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <span class='name'>Поздравляем!</span>
+              вы заняли первое место на
+              <a href='#'>«BWS Cup 2017»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>сегодня в 12:37</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/phoenix-fly.png'>
+            <span class='label plus green'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Phoenix-fly</a>
+              добавил новый костюм
+              <a href='#'>«Onesie»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>вчера в 14:35</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/skyderby.png'>
+            <span class='label location aqua'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Skyderby</a>
+              добавил новую дропзону
+              <a href='#'>«DZ Крутицы»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>6 дек в 19:51</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='section'>
+      <div class='section_item'>
+        <div class='section_item_head nav'>
+          <div class='section_item_head_title'>Соревнования</div>
+          <ul class='section_item_head_nav'>
+            <li>
+              <a href='#'>
+                All
+              </a>
+            </li>
+            <li>
+              <a class='active' href='#'>
+                Skydive
+              </a>
+            </li>
+            <li>
+              <a href='#'>
+                BASE
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class='main'>
+          <a class='main_item online' href='eventPage.html'>
+            <div class='main_item_sidebar'>
+              <div class='main_item_sidebar_date'>
+                25
+                <span>Feb`18</span>
+              </div>
+              <div class='main_item_sidebar_label red'>
+                official
+              </div>
+            </div>
+            <div class='main_item_content'>
+              <div class='main_item_content_title'>
+                5th Annual Tony Suits PerformanceCup
+              </div>
+              <div class='main_item_content_location'>
+                Skydive City/Z-Hills
+                <span>
+                  usa
+                </span>
+              </div>
+              <div class='main_item_content_class'>
+                <p>
+                  Open –
+                  <span>
+                    18
+                  </span>
+                </p>
+                <p>
+                  Intermediate –
+                  <span>
+                    2
+                  </span>
+                </p>
+              </div>
+              <hr>
+              <div class='main_item_content_rules'>
+                Rules:
+                <span>
+                  Speed, distance, time
+                </span>
+              </div>
+              <div class='main_item_content_window'>
+                Competition window:
+                <span>
+                  3000 – 2000 m
+                </span>
+              </div>
+            </div>
+          </a>
+          <a class='main_item' href='eventPage.html'>
+            <div class='main_item_sidebar'>
+              <div class='main_item_sidebar_date'>
+                08
+                <span>Sep`17</span>
+              </div>
+            </div>
+            <div class='main_item_content'>
+              <div class='main_item_content_title'>
+                2. Slovenian national Wingsuit competition
+              </div>
+              <div class='main_item_content_location'>
+                DZ Murska Sobota
+                <span>
+                  slo
+                </span>
+              </div>
+              <div class='main_item_content_class'>
+                <p>
+                  National –
+                  <span>
+                    6
+                  </span>
+                </p>
+              </div>
+              <hr>
+              <div class='main_item_content_rules'>
+                Rules:
+                <span>
+                  Speed, distance, time
+                </span>
+              </div>
+              <div class='main_item_content_window'>
+                Competition window:
+                <span>
+                  3000 – 2000 m
+                </span>
+              </div>
+            </div>
+          </a>
+          <a class='main_item' href='eventPage.html'>
+            <div class='main_item_sidebar'>
+              <div class='main_item_sidebar_date'>
+                29
+                <span>Jul`16</span>
+              </div>
+            </div>
+            <div class='main_item_content'>
+              <div class='main_item_content_title'>
+                Hungarian Wingsuit National-2016
+              </div>
+              <div class='main_item_content_location'>
+                DZ Kaposvar
+                <span>
+                  hun
+                </span>
+              </div>
+              <div class='main_item_content_class'>
+                <p>
+                  SAME SUIT FOR ALL (Intrudair Piranha) –
+                  <span>
+                    17
+                  </span>
+                </p>
+              </div>
+              <hr>
+              <div class='main_item_content_rules'>
+                Rules:
+                <span>
+                  Speed, distance, time
+                </span>
+              </div>
+              <div class='main_item_content_window'>
+                Competition window:
+                <span>
+                  3000 – 2000 m
+                </span>
+              </div>
+            </div>
+          </a>
+          <a class='main_item' href='eventPage.html'>
+            <div class='main_item_sidebar'>
+              <div class='main_item_sidebar_date'>
+                23
+                <span>Jul`16</span>
+              </div>
+            </div>
+            <div class='main_item_content'>
+              <div class='main_item_content_title'>
+                X. WINGSUIT BOOGIE HUNGARY
+              </div>
+              <div class='main_item_content_location'>
+                DZ Kaposvar
+                <span>
+                  hun
+                </span>
+              </div>
+              <div class='main_item_content_class'>
+                <p>
+                  Open –
+                  <span>
+                    18
+                  </span>
+                </p>
+                <p>
+                  Intermediate –
+                  <span>
+                    2
+                  </span>
+                </p>
+                <p>
+                  Tracking –
+                  <span>
+                    12
+                  </span>
+                </p>
+                <p>
+                  Naked Tracking –
+                  <span>
+                    26
+                  </span>
+                </p>
+                <p>
+                  Wingsuit Rodeo –
+                  <span>
+                    5
+                  </span>
+                </p>
+              </div>
+              <hr>
+              <div class='main_item_content_rules'>
+                Rules:
+                <span>
+                  Speed, distance, time
+                </span>
+              </div>
+              <div class='main_item_content_window'>
+                Competition window:
+                <span>
+                  3000 – 2000 m
+                </span>
+              </div>
+            </div>
+          </a>
+          <a class='main_item' href='eventPage.html'>
+            <div class='main_item_sidebar'>
+              <div class='main_item_sidebar_date'>
+                07
+                <span>Jul`16</span>
+              </div>
+              <div class='main_item_sidebar_label red'>
+                official
+              </div>
+            </div>
+            <div class='main_item_content'>
+              <div class='main_item_content_title'>
+                World BASE Race 2016 Hellesylt
+              </div>
+              <div class='main_item_content_location'>
+                Hellesylt
+                <span>
+                  nor
+                </span>
+              </div>
+              <div class='main_item_content_class'>
+                <p>
+                  Open –
+                  <span>
+                    18
+                  </span>
+                </p>
+              </div>
+              <hr>
+              <div class='main_item_content_rules'>
+                Rules:
+                <span>
+                  Single eliminatiion
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class='paginator'>
+        <ul class='paginator_wrapp'>
+          <li class='prev'>
+            <span></span>
+          </li>
+          <li>
+            <a href='#'>
+              1
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              2
+            </a>
+          </li>
+          <li>
+            <span>
+              3
+            </span>
+          </li>
+          <li>
+            <a href='#'>
+              4
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              5
+            </a>
+          </li>
+          <li class='next'>
+            <a href='#'></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <p>© 2014 - 2018 SKYDERBY</p>
+      <p>
+        Made by
+        <span class='icon'></span>
+        Skyderby Team
+      </p>
+    </footer>
+  </body>
+</html>
