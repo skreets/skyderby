@@ -427,6 +427,20 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
+	"\/app\/haml\/_mobile\/eventPage.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/_mobile\/eventPage.html",
+		"oF": 2,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
 	"\/app\/haml\/_mobile\/profilMain.haml": {
 		"cB": 0,
 		"cDA": 0,
@@ -449,6 +463,20 @@
 		"nEA": 0,
 		"oA": 0,
 		"oAP": "\/public\/main.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/app\/haml\/_mobile\/tpl\/event\/page.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/public\/page.html",
 		"oF": 0,
 		"oFM": 2,
 		"oS": 0,
@@ -748,6 +776,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/app\/jquery\/_mobile\/event-page.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/static\/jquery\/mobile\/event-page.min.js",
+		"oF": 2,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/app\/jquery\/_mobile\/layout.js": {
 		"ft": 64,
 		"ma": 0,
@@ -868,6 +906,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/public\/static\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/sass\/_mobile\/page\/event\/page.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/css\/page.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -4544,6 +4595,13 @@
 		"oAP": "\/public\/_mobile\/eventMain.html",
 		"oF": 0
 		},
+	"\/public\/_mobile\/eventPage.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/_mobile\/eventPage.html",
+		"oF": 0
+		},
 	"\/public\/_mobile\/profilMain.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -5097,6 +5155,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/public\/static\/jquery\/mobile\/event-page.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/static\/jquery\/event-page.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/public\/static\/jquery\/mobile\/profil-main.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -5126,6 +5194,20 @@
 			}
 		],
 	"\/app\/jquery\/_mobile\/event-main.js": [
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/app\/jquery\/_mobile\/layout.js",
+			"position": 1,
+			"type": 0
+			}
+		],
+	"\/app\/jquery\/_mobile\/event-page.js": [
 		{
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",

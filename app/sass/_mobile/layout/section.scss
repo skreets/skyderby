@@ -13,10 +13,16 @@
         font: 16px $pn-sb;
         text-transform: uppercase;
         margin-bottom: 15px;
+
+        @include respond-to(mobile) {
+          margin-right: 8vw;
+          margin-left: 8vw;
+        }
       }
 
       &_nav {
         display: flex;
+        position: relative;
 
         li {
           margin-right: 10px;
@@ -56,11 +62,60 @@
             margin-right: 0;
           }
         }
+
+        &:before {
+          content: '';
+          width: 35px;
+          height: 20px;
+          display: block;
+          position: absolute;
+          top: 0; left: -35px;
+          @include gradient-horizontal-3dot(rgba(248,248,248,0), rgba(248,248,248,1), rgba(248,248,248,1));
+        }
+      }
+
+      &_location {
+        color: $text;
+        font: 12px/12px $pn-r;
+        margin-bottom: 0px;
+
+        span {
+          color: $blue;
+          text-transform: uppercase;
+
+          &:before {
+            content: '//';
+            color: $gray-light;
+          }
+        }
+
+        &:before {
+          content: $icon-location;
+          font: 10px $icon;
+          color: $gray;
+        }
+      }
+
+      &_window {
+        color: $text;
+        font: 12px/12px $pn-r;
+        margin: 9px 0 20px;
+
+        span {
+          color: $gray;
+        }
       }
 
       &.nav {
         display: flex;
         justify-content: space-between;
+      }
+
+      &.center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
       }
     }
   }

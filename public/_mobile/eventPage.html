@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+  <head lang='ru'>
+    <title>Cоревноване // SkyDerby</title>
+    <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='Russian' name='language'>
+    <meta content='3' name='revisit-after'>
+    <meta content='[sd]team' name='author'>
+    <link href='../static/images/favicon.png' rel='shortcut icon'>
+    <link href='../static/css/mobile.css' media='screen, projection' rel='stylesheet' type='text/css'>
+    <script src='../static/jquery/mobile/event-page.min.js' type='text/javascript'></script>
+  </head>
+  <body class='event'>
+    <header>
+      <div class='head'>
+        <a href='index.html'>
+          <span>
+            SkyDerby
+          </span>
+        </a>
+        <div class='head_nav'>
+          <a class='notif active' href='javascript:void(0);'></a>
+          <a class='burger' href='javascript:void(0);'></a>
+        </div>
+      </div>
+    </header>
+    <div class='page_overlay'></div>
+    <div class='menu'>
+      <div class='menu_user'>
+        <a class='menu_user_profil' href='#'>
+          <img src='../static/images/avatar/user.png'>
+          <p>Александр Жариков</p>
+        </a>
+        <ul class='menu_user_nav'>
+          <li>
+            <a class='lang' href='#'>
+              rus
+            </a>
+            <ul>
+              <li>
+                <a class='active' data-lang='rus' href='javascript:void(0);'>
+                  Russian
+                </a>
+              </li>
+              <li>
+                <a data-lang='eng' href='javascript:void(0);'>
+                  English
+                </a>
+              </li>
+              <li>
+                <a data-lang='det' href='javascript:void(0);'>
+                  Deutsch
+                </a>
+              </li>
+              <li>
+                <a data-lang='spa' href='javascript:void(0);'>
+                  Spainish
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class='exit' href='#'></a>
+          </li>
+          <li>
+            <a class='close' href='#'></a>
+          </li>
+        </ul>
+      </div>
+      <ul class='menu_nav'>
+        <li class='active'>
+          <a class='dashboard' href='profilMain.html'>
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a class='online' href='#'>
+            Онлайн соревнования
+          </a>
+        </li>
+        <li>
+          <a class='competitions' href='eventMain.html'>
+            Соревнования
+          </a>
+        </li>
+        <li>
+          <a class='track' href='#'>
+            Треки
+          </a>
+        </li>
+        <li>
+          <a class='location' href='#'>
+            Локации
+          </a>
+        </li>
+        <li>
+          <a class='suit' href='#'>
+            Костюмы
+          </a>
+        </li>
+        <li>
+          <a class='about' href='#'>
+            О проекте
+          </a>
+        </li>
+        <li>
+          <a class='add' href='javascript:void(0);'>
+            Загрузить трек
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='notification'>
+      <div class='notification_title'>
+        Новые уведомления
+      </div>
+      <div class='notification_wrapp'>
+        <div class='notification_wrapp_item new'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/skyderby.png'>
+            <span class='label rss orange'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Skyderby</a>
+              новости сайта
+              <a href='#'>«На странице трэка появилась возможность...»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>только что</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/skyderby.png'>
+            <span class='label star red'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Skyderby</a>
+              пилот
+              <a href='#'>«Александр Кунин»</a>
+              обошел вас в категории
+              <a href='#'>«Monosuit Time»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>час назад</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/airglide.png'>
+            <span class='label plus green'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Airglide</a>
+              создал новое соревнование
+              <a href='#'>«Airglide Competition 2018»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>3 часа назад</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item cup'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/cup_gold.png'>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <span class='name'>Поздравляем!</span>
+              вы заняли первое место на
+              <a href='#'>«BWS Cup 2017»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>сегодня в 12:37</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/phoenix-fly.png'>
+            <span class='label plus green'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Phoenix-fly</a>
+              добавил новый костюм
+              <a href='#'>«Onesie»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>вчера в 14:35</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/skyderby.png'>
+            <span class='label location aqua'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Skyderby</a>
+              добавил новую дропзону
+              <a href='#'>«DZ Крутицы»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>6 дек в 19:51</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='section'>
+      <div class='section_item'>
+        <div class='section_item_head center'>
+          <div class='section_item_head_title'>5th Annual Tony Suits Performance Cup</div>
+          <div class='section_item_head_location'>
+            Skydive City/Z-Hills
+            <span>
+              usa
+            </span>
+          </div>
+          <div class='section_item_head_window'>
+            Competition window:
+            <span>
+              3000 – 2000 m
+            </span>
+          </div>
+        </div>
+        <div class='page'>
+          <a class='page_pilot' href='profilUser.html'>
+            <div class='page_pilot_name'>
+              Alexey Galda
+              <span>
+                usa
+              </span>
+            </div>
+            <div class='page_pilot_suit'>
+              <p>
+                Squirrel Suits
+                <span>
+                  CS+
+                </span>
+              </p>
+            </div>
+            <div class='page_pilot_st'>1</div>
+            <div class='page_pilot_result'>
+              <div class='page_pilot_result_title'>Round #1</div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Distance</th>
+                    <th>Time</th>
+                    <th>Speed</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>3110m</td>
+                    <td>87.3s</td>
+                    <td>237.9mk/h</td>
+                  </tr>
+                  <tr>
+                    <td>95.2%</td>
+                    <td>99.1%</td>
+                    <td>92.7%</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class='page_pilot_result_title'>Round #2</div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Distance</th>
+                    <th>Time</th>
+                    <th>Speed</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class='best'>3221m</td>
+                    <td class='best'>89.2s</td>
+                    <td>249.0mk/h</td>
+                  </tr>
+                  <tr>
+                    <td>100.0%</td>
+                    <td>100.0%</td>
+                    <td>93.9%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </a>
+          <div class='page_result'>
+            <div class='page_result_wrapp'>
+              <table>
+                <tbody>
+                  <tr>
+                    <td class='head center no_brd_top no_brd_left' colspan='1' rowspan='3'>#</td>
+                    <td class='head no_brd_top' colspan='3' rowspan='3'>Competitor</td>
+                    <td class='head center no_brd_top' colspan='5' rowspan='1'>Время</td>
+                    <td class='head center no_brd_top' colspan='5' rowspan='1'>Дистанция</td>
+                    <td class='head center no_brd_top' colspan='5' rowspan='1'>Скорость</td>
+                    <td class='head center no_brd_top no_brd_right' colspan='1' rowspan='3'>Итог</td>
+                  </tr>
+                  <tr>
+                    <td class='head center' colspan='2' rowspan='1'>1</td>
+                    <td class='head center' colspan='2' rowspan='1'>2</td>
+                    <td class='head center' colspan='1' rowspan='2'>%</td>
+                    <td class='head center' colspan='2' rowspan='1'>1</td>
+                    <td class='head center' colspan='2' rowspan='1'>2</td>
+                    <td class='head center' colspan='1' rowspan='2'>%</td>
+                    <td class='head center' colspan='2' rowspan='1'>1</td>
+                    <td class='head center' colspan='2' rowspan='1'>2</td>
+                    <td class='head center' colspan='1' rowspan='2'>%</td>
+                  </tr>
+                  <tr>
+                    <td class='head center'>с</td>
+                    <td class='head center'>%</td>
+                    <td class='head center'>с</td>
+                    <td class='head center'>%</td>
+                    <td class='head center'>м</td>
+                    <td class='head center'>%</td>
+                    <td class='head center'>м</td>
+                    <td class='head center'>%</td>
+                    <td class='head center'>км/ч</td>
+                    <td class='head center'>%</td>
+                    <td class='head center'>км/ч</td>
+                    <td class='head center'>%</td>
+                  </tr>
+                  <tr>
+                    <td class='title no_brd_right no_brd_left' colspan='20'>Open</td>
+                  </tr>
+                  <tr>
+                    <td class='center no_brd_left'>1</td>
+                    <td>
+                      <a href='#'>Alexey Galda</a>
+                    </td>
+                    <td class='center'>USA</td>
+                    <td class='gray'>SQ CR+</td>
+                    <td class='right'>
+                      <a class='best' href='#'>99.1</a>
+                    </td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right'>
+                      <a class='best' href='#'>98.4</a>
+                    </td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right'>
+                      <a class='best' href='#'>3211.4</a>
+                    </td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right'>
+                      <a href='#'>2989.2</a>
+                    </td>
+                    <td class='right gray'>80.4</td>
+                    <td class='right gray'>94.2</td>
+                    <td class='right'>
+                      <a class='best' href='#'>254.2</a>
+                    </td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right'>
+                      <a href='#'>243.9</a>
+                    </td>
+                    <td class='right gray'>93.4</td>
+                    <td class='right gray'>97.5</td>
+                    <td class='center no_brd_right'>290.45</td>
+                  </tr>
+                  <tr>
+                    <td class='center no_brd_left'>2</td>
+                    <td>
+                      <a href='#'>Kristian Szczepitko</a>
+                    </td>
+                    <td class='center'>MON</td>
+                    <td class='gray'>TS Jedei Nite</td>
+                    <td class='right'>
+                      <a href='#'>85.4</a>
+                    </td>
+                    <td class='right gray'>90.7</td>
+                    <td class='right'>
+                      <a href='#'>93.8</a>
+                    </td>
+                    <td class='right gray'>98.8</td>
+                    <td class='right gray'>96.5</td>
+                    <td class='right'>
+                      <a href='#'>3110.8</a>
+                    </td>
+                    <td class='right gray'>94.2</td>
+                    <td class='right'>
+                      <a class='best' href='#'>3492.1</a>
+                    </td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right gray'>93.7</td>
+                    <td class='right'>
+                      <a href='#'>233.8</a>
+                    </td>
+                    <td class='right gray'>93.5</td>
+                    <td class='right'>
+                      <a class='best' href='#'>261.8</a>
+                    </td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right gray'>95.3</td>
+                    <td class='center no_brd_right'>285.4</td>
+                  </tr>
+                  <tr>
+                    <td class='center no_brd_left'>3</td>
+                    <td>
+                      <a href='#'>Travis Mickle</a>
+                    </td>
+                    <td class='center'>RUS</td>
+                    <td class='gray'>SQ C-Race</td>
+                    <td class='right'>
+                      <a href='#'>93.9</a>
+                    </td>
+                    <td class='right gray'>94.8</td>
+                    <td class='right'>
+                      <a href='#'>88.9</a>
+                    </td>
+                    <td class='right gray'>95.3</td>
+                    <td class='right gray'>92.8</td>
+                    <td class='right'>
+                      <a href='#'>3008.2</a>
+                    </td>
+                    <td class='right gray'>89.5</td>
+                    <td class='right'>
+                      <a href='#'>3014.8</a>
+                    </td>
+                    <td class='right gray'>94.7</td>
+                    <td class='right gray'>90.6</td>
+                    <td class='right'>
+                      <a href='#'>226.2</a>
+                    </td>
+                    <td class='right gray'>90.1</td>
+                    <td class='right'>
+                      <a href='#'>200.1</a>
+                    </td>
+                    <td class='right gray'>86.3</td>
+                    <td class='right gray'>88.2</td>
+                    <td class='center no_brd_right'>280.99</td>
+                  </tr>
+                  <tr>
+                    <td class='title no_brd_right no_brd_left' colspan='20'>Intermediate</td>
+                  </tr>
+                  <tr>
+                    <td class='center no_brd_left'>1</td>
+                    <td>
+                      <a href='#'>Anthony Zerbonia</a>
+                    </td>
+                    <td class='center'>BRA</td>
+                    <td class='gray'>PF Strix</td>
+                    <td class='right'>
+                      <a class='best' href='#'>98.2</a>
+                    </td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right'>
+                      <a class='best' href='#'>95.2</a>
+                    </td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right'>
+                      <a class='best' href='#'>3221.1</a>
+                    </td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right'>
+                      <a href='#'>2854.2</a>
+                    </td>
+                    <td class='right gray'>90.1</td>
+                    <td class='right gray'>95.3</td>
+                    <td class='right'>
+                      <a href='#'>232.9</a>
+                    </td>
+                    <td class='right gray'>94.1</td>
+                    <td class='right'>
+                      <a class='best' href='#'>259.1</a>
+                    </td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right gray'>98.0</td>
+                    <td class='center no_brd_right'>284.3</td>
+                  </tr>
+                  <tr>
+                    <td class='center no_brd_left'>2</td>
+                    <td>
+                      <a href='#'>Joseph Likierman</a>
+                    </td>
+                    <td class='center'>NOR</td>
+                    <td class='gray'>TS Jedei 2</td>
+                    <td class='right'>
+                      <a href='#'>93.9</a>
+                    </td>
+                    <td class='right gray'>96.2</td>
+                    <td class='right'>
+                      <a href='#'>91.1</a>
+                    </td>
+                    <td class='right gray'>91.8</td>
+                    <td class='right gray'>91.6</td>
+                    <td class='right'>
+                      <a href='#'>3154.4</a>
+                    </td>
+                    <td class='right gray'>98.8</td>
+                    <td class='right'>
+                      <a href='#'>2943.7</a>
+                    </td>
+                    <td class='right gray'>93.7</td>
+                    <td class='right gray'>92.9</td>
+                    <td class='right'>
+                      <a class='best' href='#'>245.2</a>
+                    </td>
+                    <td class='right gray'>100.0</td>
+                    <td class='right'>
+                      <a href='#'>243.8</a>
+                    </td>
+                    <td class='right gray'>95.8</td>
+                    <td class='right gray'>96.9</td>
+                    <td class='center no_brd_right'>273.5</td>
+                  </tr>
+                  <tr>
+                    <td class='center no_brd_left no_brd_bottom'>3</td>
+                    <td class='no_brd_bottom'>
+                      <a href='#'>Dan Darby</a>
+                    </td>
+                    <td class='center no_brd_bottom'>CHI</td>
+                    <td class='gray no_brd_bottom'>TS R-Bird 2</td>
+                    <td class='right no_brd_bottom'>
+                      <a href='#'>90.6</a>
+                    </td>
+                    <td class='right gray no_brd_bottom'>91.8</td>
+                    <td class='right no_brd_bottom'>
+                      <a href='#'>84.8</a>
+                    </td>
+                    <td class='right gray no_brd_bottom'>89.5</td>
+                    <td class='right gray no_brd_bottom'>86.7</td>
+                    <td class='right no_brd_bottom'>
+                      <a href='#'>2987.1</a>
+                    </td>
+                    <td class='right gray no_brd_bottom'>96.3</td>
+                    <td class='right no_brd_bottom'>
+                      <a class='best' href='#'>3025.8</a>
+                    </td>
+                    <td class='right gray no_brd_bottom'>100.0</td>
+                    <td class='right gray no_brd_bottom'>98.4</td>
+                    <td class='right no_brd_bottom'>
+                      <a href='#'>210.2</a>
+                    </td>
+                    <td class='right gray no_brd_bottom'>91.4</td>
+                    <td class='right no_brd_bottom'>
+                      <a href='#'>229.4</a>
+                    </td>
+                    <td class='right gray no_brd_bottom'>89.4</td>
+                    <td class='right gray no_brd_bottom'>90.4</td>
+                    <td class='center no_brd_right no_brd_bottom'>266.4</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>© 2014 - 2018 SKYDERBY</p>
+      <p>
+        Made by
+        <span class='icon'></span>
+        Skyderby Team
+      </p>
+    </footer>
+  </body>
+</html>
