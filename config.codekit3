@@ -7,7 +7,7 @@
 		"uuidString": "6B4358C0-7875-4F5C-B7B4-EDDC03F3E6AD"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -2535,6 +2535,7 @@
 	"\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcs_demo_bg.jpg": {
 		"ft": 16384,
 		"iS": 6357,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcs_demo_bg.jpg",
 		"oF": 0,
@@ -2545,6 +2546,7 @@
 	"\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsImg1.jpg": {
 		"ft": 16384,
 		"iS": 5073,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsImg1.jpg",
 		"oF": 0,
@@ -2555,6 +2557,7 @@
 	"\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsImg2.jpg": {
 		"ft": 16384,
 		"iS": 7660,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsImg2.jpg",
 		"oF": 0,
@@ -2565,6 +2568,7 @@
 	"\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb1.jpg": {
 		"ft": 16384,
 		"iS": 2944,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb1.jpg",
 		"oF": 0,
@@ -2575,6 +2579,7 @@
 	"\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb2.jpg": {
 		"ft": 16384,
 		"iS": 3018,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb2.jpg",
 		"oF": 0,
@@ -2585,6 +2590,7 @@
 	"\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb3.jpg": {
 		"ft": 16384,
 		"iS": 2404,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb3.jpg",
 		"oF": 0,
@@ -2595,6 +2601,7 @@
 	"\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb4.jpg": {
 		"ft": 16384,
 		"iS": 2463,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb4.jpg",
 		"oF": 0,
@@ -2605,6 +2612,7 @@
 	"\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb5.jpg": {
 		"ft": 16384,
 		"iS": 2413,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb5.jpg",
 		"oF": 0,
@@ -2615,6 +2623,7 @@
 	"\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb6.jpg": {
 		"ft": 16384,
 		"iS": 2200,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb6.jpg",
 		"oF": 0,
@@ -2625,6 +2634,7 @@
 	"\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb7.jpg": {
 		"ft": 16384,
 		"iS": 1752,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb7.jpg",
 		"oF": 0,
@@ -2635,6 +2645,7 @@
 	"\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb8.jpg": {
 		"ft": 16384,
 		"iS": 2592,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/malihu-custom-scrollbar-plugin-bower\/demo_files\/mcsThumb8.jpg",
 		"oF": 0,
@@ -5241,6 +5252,7 @@
 	"displayValue": "skyderby-html",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-yesBaby",
+	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 539044041
 	},
 "projectSettings": {
@@ -7044,6 +7056,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

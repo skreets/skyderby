@@ -954,8 +954,8 @@ header {
       margin-bottom: 15px; }
       @media only screen and (max-width: 959px) {
         .section_item_head_title {
-          margin-right: 8vw;
-          margin-left: 8vw; } }
+          margin-right: 0;
+          margin-left: 0; } }
     .section_item_head_nav {
       display: flex;
       position: relative; }
