@@ -13,11 +13,6 @@
         font: 16px $pn-sb;
         text-transform: uppercase;
         margin-bottom: 15px;
-
-        @include respond-to(mobile) {
-          margin-right: 0;
-          margin-left: 0;
-        }
       }
 
       &_nav {

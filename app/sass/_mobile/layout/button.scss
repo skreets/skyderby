@@ -1,0 +1,15 @@
+.button {
+  color: #fff;
+  font-family: $pn-r;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 10px 25px;
+
+  &.blue {
+    background: $aqua;
+  }
+
+  &.green {
+    background: $green;
+  }
+}

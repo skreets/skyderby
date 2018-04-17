@@ -10,9 +10,10 @@
 .page_overlay
 .menu
   .menu_user
-    %a.menu_user_profil{:href => '#'}
-      %img{:src => "../static/images/avatar/user.png"}/
-      %p Александр Жариков
+    -# %a.menu_user_profil{:href => '#'}
+    -#   %img{:src => "../static/images/avatar/user.png"}/
+    -#   %p Александр Жариков
+    %a.menu_user_enter.button.blue{:href => '#'} Войти
     %ul.menu_user_nav
       %li
         %a.lang{:href => '#'}
@@ -30,8 +31,8 @@
           %li
             %a{"data-lang" => "spa", :href => 'javascript:void(0);'}
               Spainish
-      %li
-        %a.exit{:href => '#'}
+      -# %li
+      -#   %a.exit{:href => '#'}
       %li
         %a.close{:href => '#'}
 
@@ -60,3 +61,4 @@
     %li
       %a.add{:href => 'javascript:void(0);'}
         Загрузить трек
+  %a.menu_registration.button.green{:href => '#'} Зарегистрироваться
