@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+  <head lang='ru'>
+    <meta charset='utf-8'>
+    <title>Онлайн соревнования // SkyDerby</title>
+    <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='Russian' name='language'>
+    <meta content='3' name='revisit-after'>
+    <meta content='[sd]team' name='author'>
+    <link href='../static/images/favicon.png' rel='shortcut icon'>
+    <link href='../static/css/mobile.css' media='screen, projection' rel='stylesheet' type='text/css'>
+    <script src='../static/jquery/mobile/online-main.min.js' type='text/javascript'></script>
+  </head>
+  <body class='on-line'>
+    <header>
+      <div class='head'>
+        <a href='index.html'>
+          <span>
+            SkyDerby
+          </span>
+        </a>
+        <div class='head_nav'>
+          <a class='notif active' href='javascript:void(0);'></a>
+          <a class='burger' href='javascript:void(0);'></a>
+        </div>
+      </div>
+    </header>
+    <div class='page_overlay'></div>
+    <div class='menu'>
+      <div class='menu_user'>
+        <a class='menu_user_enter button blue' href='#'>Войти</a>
+        <ul class='menu_user_nav'>
+          <li>
+            <a class='lang' href='#'>
+              rus
+            </a>
+            <ul>
+              <li>
+                <a class='active' data-lang='rus' href='javascript:void(0);'>
+                  Russian
+                </a>
+              </li>
+              <li>
+                <a data-lang='eng' href='javascript:void(0);'>
+                  English
+                </a>
+              </li>
+              <li>
+                <a data-lang='det' href='javascript:void(0);'>
+                  Deutsch
+                </a>
+              </li>
+              <li>
+                <a data-lang='spa' href='javascript:void(0);'>
+                  Spainish
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class='close' href='#'></a>
+          </li>
+        </ul>
+      </div>
+      <ul class='menu_nav'>
+        <li class='active'>
+          <a class='dashboard' href='profilMain.html'>
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a class='online' href='onlineMain.html'>
+            Онлайн соревнования
+          </a>
+        </li>
+        <li>
+          <a class='competitions' href='eventMain.html'>
+            Соревнования
+          </a>
+        </li>
+        <li>
+          <a class='track' href='#'>
+            Треки
+          </a>
+        </li>
+        <li>
+          <a class='location' href='#'>
+            Локации
+          </a>
+        </li>
+        <li>
+          <a class='suit' href='#'>
+            Костюмы
+          </a>
+        </li>
+        <li>
+          <a class='about' href='#'>
+            О проекте
+          </a>
+        </li>
+        <li>
+          <a class='add' href='javascript:void(0);'>
+            Загрузить трек
+          </a>
+        </li>
+      </ul>
+      <a class='menu_registration button green' href='#'>Зарегистрироваться</a>
+    </div>
+    <div class='notification'>
+      <div class='notification_title'>
+        Новые уведомления
+      </div>
+      <div class='notification_wrapp'>
+        <div class='notification_wrapp_item new'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/skyderby.png'>
+            <span class='label rss orange'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Skyderby</a>
+              новости сайта
+              <a href='#'>«На странице трэка появилась возможность...»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>только что</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/skyderby.png'>
+            <span class='label star red'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Skyderby</a>
+              пилот
+              <a href='#'>«Александр Кунин»</a>
+              обошел вас в категории
+              <a href='#'>«Monosuit Time»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>час назад</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/airglide.png'>
+            <span class='label plus green'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Airglide</a>
+              создал новое соревнование
+              <a href='#'>«Airglide Competition 2018»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>3 часа назад</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item cup'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/cup_gold.png'>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <span class='name'>Поздравляем!</span>
+              вы заняли первое место на
+              <a href='#'>«BWS Cup 2017»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>сегодня в 12:37</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/phoenix-fly.png'>
+            <span class='label plus green'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Phoenix-fly</a>
+              добавил новый костюм
+              <a href='#'>«Onesie»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>вчера в 14:35</div>
+          </div>
+        </div>
+        <div class='notification_wrapp_item'>
+          <div class='notification_wrapp_item_img'>
+            <img src='../static/images/avatar/skyderby.png'>
+            <span class='label location aqua'></span>
+          </div>
+          <div class='notification_wrapp_item_content'>
+            <p>
+              <a class='name' href='#'>Skyderby</a>
+              добавил новую дропзону
+              <a href='#'>«DZ Крутицы»</a>
+            </p>
+            <div class='notification_wrapp_item_content_date'>6 дек в 19:51</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='section'>
+      <div class='section_item'>
+        <div class='section_item_head nav brd'>
+          <div class='section_item_head_title'>Онлайн соревнования</div>
+          <ul class='section_item_head_nav'>
+            <li>
+              <a href='#'>
+                All
+              </a>
+            </li>
+            <li>
+              <a class='active' href='#'>
+                Skydive
+              </a>
+            </li>
+            <li>
+              <a href='#'>
+                BASE
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class='main'>
+          <div class='main_title'>Skydive Worldwide Challenge</div>
+          <a class='main_item' href='onlinePage.html'>
+            <div class='main_item_head'>
+              <div class='main_item_head_title'>
+                Wingsuit challenge
+              </div>
+              <div class='main_item_head_class'>
+                <p>
+                  Всемирные
+                </p>
+                <p>
+                  Участники –
+                  <span>
+                    18
+                  </span>
+                </p>
+              </div>
+              <div class='main_item_head_window'>
+                Competition window:
+                <span>
+                  3000 – 2000 m
+                </span>
+              </div>
+            </div>
+            <div class='main_item_round'>
+              <div class='main_item_round__item'>
+                <div class='main_item_round__item_title'>Дистанция</div>
+                <div class='main_item_round__item_wrapp'>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Alexey Galda</div>
+                    <div class='main_item_round__item_wrapp_item__result'>5986 м</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Kistaichev Sergey</div>
+                    <div class='main_item_round__item_wrapp_item__result'>5597 м</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Joe Ridler</div>
+                    <div class='main_item_round__item_wrapp_item__result'>5592 м</div>
+                  </div>
+                </div>
+              </div>
+              <div class='main_item_round__item'>
+                <div class='main_item_round__item_title'>Скорость</div>
+                <div class='main_item_round__item_wrapp'>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Joe Ridler</div>
+                    <div class='main_item_round__item_wrapp_item__result'>374.0 км/ч</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Travis Mickle</div>
+                    <div class='main_item_round__item_wrapp_item__result'>349.3 км/ч</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Anthony Zerbonia</div>
+                    <div class='main_item_round__item_wrapp_item__result'>340.8 км/ч</div>
+                  </div>
+                </div>
+              </div>
+              <div class='main_item_round__item'>
+                <div class='main_item_round__item_title'>Время</div>
+                <div class='main_item_round__item_wrapp'>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Chris Geiler</div>
+                    <div class='main_item_round__item_wrapp_item__result'>108.3 с</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Dmitry Podoryashy</div>
+                    <div class='main_item_round__item_wrapp_item__result'>96.2 с</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Kistaichev Sergey</div>
+                    <div class='main_item_round__item_wrapp_item__result'>95.7 с</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class='main_item' href='onlinePage.html'>
+            <div class='main_item_head'>
+              <div class='main_item_head_title'>
+                Monosuit challenge
+              </div>
+              <div class='main_item_head_class'>
+                <p>
+                  Всемирные
+                </p>
+                <p>
+                  Участники –
+                  <span>
+                    18
+                  </span>
+                </p>
+              </div>
+              <div class='main_item_head_window'>
+                Competition window:
+                <span>
+                  3000 – 2000 m
+                </span>
+              </div>
+            </div>
+            <div class='main_item_round'>
+              <div class='main_item_round__item'>
+                <div class='main_item_round__item_title'>Дистанция</div>
+                <div class='main_item_round__item_wrapp'>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Alexey Galda</div>
+                    <div class='main_item_round__item_wrapp_item__result'>5986 м</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Kistaichev Sergey</div>
+                    <div class='main_item_round__item_wrapp_item__result'>5597 м</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Joe Ridler</div>
+                    <div class='main_item_round__item_wrapp_item__result'>5592 м</div>
+                  </div>
+                </div>
+              </div>
+              <div class='main_item_round__item'>
+                <div class='main_item_round__item_title'>Скорость</div>
+                <div class='main_item_round__item_wrapp'>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Joe Ridler</div>
+                    <div class='main_item_round__item_wrapp_item__result'>374.0 км/ч</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Travis Mickle</div>
+                    <div class='main_item_round__item_wrapp_item__result'>349.3 км/ч</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Anthony Zerbonia</div>
+                    <div class='main_item_round__item_wrapp_item__result'>340.8 км/ч</div>
+                  </div>
+                </div>
+              </div>
+              <div class='main_item_round__item'>
+                <div class='main_item_round__item_title'>Время</div>
+                <div class='main_item_round__item_wrapp'>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Chris Geiler</div>
+                    <div class='main_item_round__item_wrapp_item__result'>108.3 с</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Dmitry Podoryashy</div>
+                    <div class='main_item_round__item_wrapp_item__result'>96.2 с</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Kistaichev Sergey</div>
+                    <div class='main_item_round__item_wrapp_item__result'>95.7 с</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class='main_item' href='onlinePage.html'>
+            <div class='main_item_head'>
+              <div class='main_item_head_title'>
+                Tracksuit challenge
+              </div>
+              <div class='main_item_head_class'>
+                <p>
+                  Всемирные
+                </p>
+                <p>
+                  Участники –
+                  <span>
+                    18
+                  </span>
+                </p>
+              </div>
+              <div class='main_item_head_window'>
+                Competition window:
+                <span>
+                  3000 – 2000 m
+                </span>
+              </div>
+            </div>
+            <div class='main_item_round'>
+              <div class='main_item_round__item'>
+                <div class='main_item_round__item_title'>Дистанция</div>
+                <div class='main_item_round__item_wrapp'>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Alexey Galda</div>
+                    <div class='main_item_round__item_wrapp_item__result'>5986 м</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Kistaichev Sergey</div>
+                    <div class='main_item_round__item_wrapp_item__result'>5597 м</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Joe Ridler</div>
+                    <div class='main_item_round__item_wrapp_item__result'>5592 м</div>
+                  </div>
+                </div>
+              </div>
+              <div class='main_item_round__item'>
+                <div class='main_item_round__item_title'>Скорость</div>
+                <div class='main_item_round__item_wrapp'>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Joe Ridler</div>
+                    <div class='main_item_round__item_wrapp_item__result'>374.0 км/ч</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Travis Mickle</div>
+                    <div class='main_item_round__item_wrapp_item__result'>349.3 км/ч</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Anthony Zerbonia</div>
+                    <div class='main_item_round__item_wrapp_item__result'>340.8 км/ч</div>
+                  </div>
+                </div>
+              </div>
+              <div class='main_item_round__item'>
+                <div class='main_item_round__item_title'>Время</div>
+                <div class='main_item_round__item_wrapp'>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Chris Geiler</div>
+                    <div class='main_item_round__item_wrapp_item__result'>108.3 с</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Dmitry Podoryashy</div>
+                    <div class='main_item_round__item_wrapp_item__result'>96.2 с</div>
+                  </div>
+                  <div class='main_item_round__item_wrapp_item'>
+                    <div class='main_item_round__item_wrapp_item__img'>
+                      <img src='../static/images/avatar/user.png'>
+                    </div>
+                    <div class='main_item_round__item_wrapp_item__name'>Kistaichev Sergey</div>
+                    <div class='main_item_round__item_wrapp_item__result'>95.7 с</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>© 2014 - 2018 SKYDERBY</p>
+      <p>
+        Made by
+        <span class='icon'></span>
+        Skyderby Team
+      </p>
+    </footer>
+  </body>
+</html>

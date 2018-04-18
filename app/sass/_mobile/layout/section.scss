@@ -13,6 +13,12 @@
         font: 16px $pn-sb;
         text-transform: uppercase;
         margin-bottom: 15px;
+        overflow: hidden;
+        white-space: nowrap;
+
+        &.wrap {
+          white-space: normal;
+        }
       }
 
       &_nav {

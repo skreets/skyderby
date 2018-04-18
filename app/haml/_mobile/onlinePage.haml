@@ -1,0 +1,30 @@
+!!!
+%html
+  %head{:lang => 'ru'}
+    %meta{:charset => 'utf-8'}
+    %title Онлайн соревнования // SkyDerby
+    %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1, user-scalable=no'}
+    %meta{:name => 'description', :content => ''}
+    %meta{:name => 'keywords', :content => ''}
+    %meta{:name => 'language', :content => 'Russian'}
+    %meta{:name => 'revisit-after', :content => '3'}
+    %meta{:name => 'author', :content => '[sd]team'}
+
+    %link{:rel => 'shortcut icon', :href => '../static/images/favicon.png'}
+
+    %link{:rel => 'stylesheet', :href => '../static/css/mobile.css', :type => 'text/css', :media => 'screen, projection'}
+
+    %script{:type => "text/javascript",
+      :src  => "../static/jquery/mobile/online-page.min.js"}
+
+  %body{:class => 'on-line'}
+
+    = Haml::Engine.new(File.read(File.expand_path 'tpl/layout/header.haml', File.dirname(__FILE__))).render
+    = Haml::Engine.new(File.read(File.expand_path 'tpl/layout/notification.haml', File.dirname(__FILE__))).render
+
+    .section
+      = Haml::Engine.new(File.read(File.expand_path 'tpl/online/page.haml', File.dirname(__FILE__))).render
+      = Haml::Engine.new(File.read(File.expand_path 'tpl/layout/paginator.haml', File.dirname(__FILE__))).render
+
+    %footer
+      = Haml::Engine.new(File.read(File.expand_path 'tpl/layout/footer.haml', File.dirname(__FILE__))).render
