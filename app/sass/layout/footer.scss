@@ -5,7 +5,7 @@ footer {
     color: $text;
     display: block;
     font: 12px/12px $pn-l;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   @include respond-to(laptop) {

@@ -1196,7 +1196,7 @@ a[href^="http://savefrom.net/"] {
     color: #333333;
     display: block;
     font: 12px/12px "Proxima Nova Light";
-    margin-bottom: 10px; } }
+    margin-bottom: 20px; } }
 
 @media only screen and (min-width: 960px) {
   footer {
