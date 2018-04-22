@@ -73,6 +73,68 @@
           top: 0; left: -35px;
           @include gradient-horizontal-3dot(rgba(248,248,248,0), rgba(248,248,248,1), rgba(248,248,248,1));
         }
+
+        &.select {
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+
+          li {
+
+            &:last-child {
+              flex: 1 1 auto;
+              display: flex;
+              justify-content: flex-end;
+            }
+          }
+        }
+
+        .select-control-default {
+        	position: relative;
+          top: -1px;
+
+        	select {
+        	  width: 100%;
+            font: 14px/14px $pn-sb;
+        		position: relative;
+        		outline: none;
+        		padding: 0;
+        		padding-right: 10px;
+            border: 0;
+            border-radius: 0;
+            background: $tr;
+        		-moz-appearance: none;
+        		-webkit-appearance: none;
+        	}
+
+        	&:after {
+        		content: '‹';
+        		color: #ccc;
+            font-size: 26px;
+        		line-height: 0;
+        		display: block;
+        		position: absolute;
+        		top: 8px; right: 0;
+        		-moz-transform: rotate(-90deg);
+            -webkit-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        	}
+
+          // IE Fix
+        	select::-ms-expand {
+        		display: none;
+        	}
+
+        	@media screen and (min-width:0\0) {
+        		select {
+        			background: none;
+        			padding: 10px 12px 12px;
+        		}
+        	}
+        }
       }
 
       &_location {
@@ -104,6 +166,23 @@
 
         span {
           color: $gray;
+        }
+
+        & + .section_item_head_task {
+          margin-top: -11px;
+        }
+      }
+
+      &_task{
+        color: $text;
+        font: 12px/12px $pn-r;
+        display: flex;
+        text-align: left;
+        margin: 9px 15px 20px;
+
+        span {
+          color: $gray;
+          margin-left: 5px;
         }
       }
 

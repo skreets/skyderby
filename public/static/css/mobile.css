@@ -1020,6 +1020,50 @@ header {
         background: -moz-linear-gradient(left, rgba(248, 248, 248, 0) 0%, #f8f8f8 50%, #f8f8f8 100%);
         background: -webkit-linear-gradient(left, rgba(248, 248, 248, 0) 0%, #f8f8f8 50%, #f8f8f8 100%);
         background: linear-gradient(to right, rgba(248, 248, 248, 0) 0%, #f8f8f8 50%, #f8f8f8 100%); }
+      .section_item_head_nav.select {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        .section_item_head_nav.select li:last-child {
+          flex: 1 1 auto;
+          display: flex;
+          justify-content: flex-end; }
+      .section_item_head_nav .select-control-default {
+        position: relative;
+        top: -1px; }
+        .section_item_head_nav .select-control-default select {
+          width: 100%;
+          font: 14px/14px "Proxima Nova Semibold";
+          position: relative;
+          outline: none;
+          padding: 0;
+          padding-right: 10px;
+          border: 0;
+          border-radius: 0;
+          background: transparent;
+          -moz-appearance: none;
+          -webkit-appearance: none; }
+        .section_item_head_nav .select-control-default:after {
+          content: '‹';
+          color: #ccc;
+          font-size: 26px;
+          line-height: 0;
+          display: block;
+          position: absolute;
+          top: 8px;
+          right: 0;
+          -moz-transform: rotate(-90deg);
+          -webkit-transform: rotate(-90deg);
+          -o-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg); }
+        .section_item_head_nav .select-control-default select::-ms-expand {
+          display: none; }
+        @media screen and (min-width: 0\0) {
+          .section_item_head_nav .select-control-default select {
+            background: none;
+            padding: 10px 12px 12px; } }
     .section_item_head_location {
       color: #333333;
       font: 12px/12px "Proxima Nova Regular";
@@ -1040,6 +1084,17 @@ header {
       margin: 9px 0 20px; }
       .section_item_head_window span {
         color: #999999; }
+      .section_item_head_window + .section_item_head_task {
+        margin-top: -11px; }
+    .section_item_head_task {
+      color: #333333;
+      font: 12px/12px "Proxima Nova Regular";
+      display: flex;
+      text-align: left;
+      margin: 9px 15px 20px; }
+      .section_item_head_task span {
+        color: #999999;
+        margin-left: 5px; }
     .section_item_head.nav {
       display: flex;
       justify-content: space-between; }
@@ -1191,134 +1246,170 @@ header {
     .event .main_item:last-child {
       margin-bottom: 0; }
 
-.event {
+.on-line {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   overflow-x: hidden; }
-  .event .page_pilot {
+  .on-line .page_wrapp {
     color: #333333;
     display: flex;
     flex-direction: column;
     border: 1px solid #efefef;
     padding: 20px 20px 13px;
-    margin-bottom: 20px;
+    margin-top: 22px;
     text-decoration: none;
     position: relative;
     background: #fff; }
-    .event .page_pilot_name {
-      font: 18px/18px "Proxima Nova Regular";
-      margin-bottom: 5px; }
-      .event .page_pilot_name span {
-        color: #75a4ba;
-        font-size: 13px;
-        text-transform: uppercase; }
-        .event .page_pilot_name span:before {
-          content: '//';
-          color: #cccccc; }
-    .event .page_pilot_suit {
-      position: relative; }
-      .event .page_pilot_suit p {
+    .on-line .page_wrapp_leaders {
+      display: flex;
+      justify-content: space-between; }
+      .on-line .page_wrapp_leaders__item {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none; }
+        .on-line .page_wrapp_leaders__item__img {
+          width: 50px;
+          height: 50px;
+          border-radius: 100%;
+          margin-bottom: 5px;
+          position: relative;
+          box-shadow: 0 0 20px 0 #fff; }
+          .on-line .page_wrapp_leaders__item__img img {
+            max-width: 100%;
+            border-radius: 100%;
+            position: relative;
+            z-index: 1; }
+          .on-line .page_wrapp_leaders__item__img:before {
+            content: '';
+            width: 44px;
+            height: 44px;
+            display: block;
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            border-radius: 100%;
+            border: 4px solid #f00;
+            z-index: 2; }
+        .on-line .page_wrapp_leaders__item__name {
+          color: #333333;
+          font: 12px/12px "Proxima Nova Regular";
+          text-align: center;
+          margin: 5px 0;
+          word-spacing: 60px; }
+        .on-line .page_wrapp_leaders__item__result {
+          color: #999;
+          font: 16px/18px "Proxima Nova Regular"; }
+        .on-line .page_wrapp_leaders__item:nth-of-type(1) .page_wrapp_leaders__item__img:before {
+          border-color: #ffcc00; }
+        .on-line .page_wrapp_leaders__item:nth-of-type(2) .page_wrapp_leaders__item__img:before {
+          border-color: #c6c6c6; }
+        .on-line .page_wrapp_leaders__item:nth-of-type(3) .page_wrapp_leaders__item__img:before {
+          border-color: #df8250; }
+    .on-line .page_wrapp_pilots .table {
+      display: flex;
+      flex-direction: column;
+      margin-top: 16px; }
+      .on-line .page_wrapp_pilots .table .tr {
         color: #333333;
-        padding-left: 12px;
-        font: 12px/16px "Proxima Nova Regular"; }
-        .event .page_pilot_suit p span {
-          color: #75a4ba; }
-        .event .page_pilot_suit p:first-letter {
-          text-transform: uppercase; }
-        .event .page_pilot_suit p:last-child:after {
-          display: none; }
-      .event .page_pilot_suit:before {
-        content: "";
-        font: 10px "Icon";
-        color: #999999;
-        position: absolute;
-        top: 2px;
-        left: -2px; }
-    .event .page_pilot_st {
-      color: #dcdcdc;
-      font: 57px/57px "Proxima Nova Light";
-      position: absolute;
-      top: 12px;
-      right: 15px; }
-      .event .page_pilot_st:before {
-        content: '#';
-        font: 34px/34px "Proxima Nova Regular"; }
-    .event .page_pilot_result {
-      margin-top: 18px; }
-      .event .page_pilot_result_title {
-        font: 14px/14px "Proxima Nova Semibold";
-        text-transform: uppercase;
-        text-align: center;
-        border-top: 1px solid #eee;
-        border-bottom: 1px solid #eee;
-        padding: 9px 0 7px; }
-      .event .page_pilot_result table {
-        width: 100%; }
-        .event .page_pilot_result table thead tr th {
-          width: 33.3%;
-          font: 12px/12px "Proxima Nova Semibold";
-          text-align: center;
-          border-bottom: 1px solid #eee;
-          padding: 7px 0; }
-        .event .page_pilot_result table tbody tr td {
-          width: 33.3%;
-          font: 12px/12px "Proxima Nova Regular";
-          text-align: center;
-          padding: 7px 0 7px; }
-          .event .page_pilot_result table tbody tr td.best {
-            color: #5cb85c; }
-        .event .page_pilot_result table tbody tr:first-child td {
-          padding-bottom: 0; }
-        .event .page_pilot_result table tbody tr:last-child td {
-          color: #999999; }
-    .event .page_pilot:last-child {
-      margin-bottom: 0; }
-  .event .page_result {
-    color: #333333;
-    border: 1px solid #efefef;
-    padding: 0;
-    margin-bottom: 10px;
-    position: relative;
-    background: #fff; }
-    .event .page_result_wrapp {
-      overflow: hidden;
-      overflow-x: scroll;
-      position: relative;
-      z-index: 1; }
-      .event .page_result_wrapp table {
-        width: 100%;
-        margin-right: 20px;
-        border-collapse: collapse; }
-        .event .page_result_wrapp table tbody tr td {
-          white-space: nowrap;
-          font: 12px/12px "Proxima Nova Regular";
-          padding: 10px;
-          border: 1px solid #eee; }
-          .event .page_result_wrapp table tbody tr td a {
-            color: #5c8293;
-            text-decoration: none; }
-            .event .page_result_wrapp table tbody tr td a.best {
-              color: #5cb85c; }
-          .event .page_result_wrapp table tbody tr td.title {
-            font-family: "Proxima Nova Semibold";
-            text-transform: uppercase; }
-          .event .page_result_wrapp table tbody tr td.head {
-            font-family: "Proxima Nova Semibold"; }
-          .event .page_result_wrapp table tbody tr td.center {
-            text-align: center; }
-          .event .page_result_wrapp table tbody tr td.right {
+        font: 12px/12px "Proxima Nova Regular";
+        padding: 10px 0;
+        position: relative;
+        text-decoration: none;
+        display: flex;
+        border-top: 1px solid #eee; }
+        .on-line .page_wrapp_pilots .table .tr span {
+          color: #cccccc; }
+        .on-line .page_wrapp_pilots .table .tr .td {
+          position: relative; }
+          .on-line .page_wrapp_pilots .table .tr .td:nth-of-type(1) {
+            width: 20px;
+            text-align: left;
+            margin-right: 10px; }
+          .on-line .page_wrapp_pilots .table .tr .td:nth-of-type(2) {
+            width: 44%;
+            text-align: left;
+            white-space: nowrap;
+            overflow: hidden;
+            margin-right: 10px; }
+            .on-line .page_wrapp_pilots .table .tr .td:nth-of-type(2):after {
+              content: '';
+              width: 15px;
+              height: 15px;
+              display: block;
+              position: absolute;
+              top: 0;
+              right: 0;
+              background: rgba(255, 255, 255, 0);
+              background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 100%);
+              background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 100%);
+              background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 100%); }
+          .on-line .page_wrapp_pilots .table .tr .td:nth-of-type(3) {
+            width: 44%;
+            text-align: left;
+            white-space: nowrap;
+            overflow: hidden; }
+            .on-line .page_wrapp_pilots .table .tr .td:nth-of-type(3):after {
+              content: '';
+              width: 15px;
+              height: 15px;
+              display: block;
+              position: absolute;
+              top: 0;
+              right: 0;
+              background: rgba(255, 255, 255, 0);
+              background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 100%);
+              background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 100%);
+              background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 100%); }
+          .on-line .page_wrapp_pilots .table .tr .td:nth-of-type(4) {
+            width: 50px;
+            margin-left: 10px;
             text-align: right; }
-          .event .page_result_wrapp table tbody tr td.gray {
-            color: #999999; }
-          .event .page_result_wrapp table tbody tr td.no_brd_top {
-            border-top: 0; }
-          .event .page_result_wrapp table tbody tr td.no_brd_right {
-            border-right: 0; }
-          .event .page_result_wrapp table tbody tr td.no_brd_bottom {
-            border-bottom: 0; }
-          .event .page_result_wrapp table tbody tr td.no_brd_left {
-            border-left: 0; }
+        .on-line .page_wrapp_pilots .table .tr.you {
+          background: #f1f6f8;
+          border-top-color: #f1f6f8;
+          margin-top: 20px;
+          margin-bottom: -13px; }
+          .on-line .page_wrapp_pilots .table .tr.you .td:nth-of-type(1):before {
+            content: '';
+            width: 20px;
+            height: 33px;
+            display: block;
+            position: absolute;
+            top: -11px;
+            left: -20px;
+            background: #f1f6f8; }
+          .on-line .page_wrapp_pilots .table .tr.you .td:nth-of-type(2):after {
+            background: rgba(241, 246, 248, 0);
+            background: -moz-linear-gradient(left, rgba(241, 246, 248, 0) 0%, #f1f6f8 100%);
+            background: -webkit-linear-gradient(left, rgba(241, 246, 248, 0) 0%, #f1f6f8 100%);
+            background: linear-gradient(to right, rgba(241, 246, 248, 0) 0%, #f1f6f8 100%); }
+          .on-line .page_wrapp_pilots .table .tr.you .td:nth-of-type(3):after {
+            background: rgba(241, 246, 248, 0);
+            background: -moz-linear-gradient(left, rgba(241, 246, 248, 0) 0%, #f1f6f8 100%);
+            background: -webkit-linear-gradient(left, rgba(241, 246, 248, 0) 0%, #f1f6f8 100%);
+            background: linear-gradient(to right, rgba(241, 246, 248, 0) 0%, #f1f6f8 100%); }
+          .on-line .page_wrapp_pilots .table .tr.you .td:nth-of-type(4):after {
+            content: '';
+            width: 20px;
+            height: 33px;
+            display: block;
+            position: absolute;
+            top: -11px;
+            right: -20px;
+            background: #f1f6f8; }
+          .on-line .page_wrapp_pilots .table .tr.you:before {
+            content: '...';
+            color: #eee;
+            font: 40px/2px "Proxima Nova Semibold";
+            width: 100%;
+            height: 20px;
+            text-align: center;
+            position: absolute;
+            top: -27px;
+            left: 0; }
 
 .event .section {
   margin-top: 71px; }

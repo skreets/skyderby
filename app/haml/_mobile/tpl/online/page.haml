@@ -1,265 +1,208 @@
 .section_item
   .section_item_head.center
-    .section_item_head_title.wrap 5th Annual Tony Suits Performance Cup
-    .section_item_head_location
-      Skydive City/Z-Hills
-      %span
-        usa
+    .section_item_head_title.wrap
+      Skydive Worldwide Challenge
+      %br
+      Wingsuit Challenge
+    .main_item_head_class
+      %p
+        Всемирные
+      %p
+        Участники –
+        %span
+          18
     .section_item_head_window
       Competition window:
       %span
         3000 – 2000 m
+    .section_item_head_task
+      Цель:
+      %span
+        лететь с минимально возможной вертикальной скоростью находясь в зачетном окне.
+    %ul.section_item_head_nav.select
+      %li
+        %a{:href => '#'}
+          Distance
+      %li
+        %a.active{:href => '#'}
+          Time
+      %li
+        %a{:href => '#'}
+          Speed
+      %li
+        .select-control-default
+          %select
+            %option 2018
+            %option 2017
+            %option 2016
+            %option 2015
 
   .page
-    %a.page_pilot{:href => 'profilUser.html'}
-      .page_pilot_name
-        Alexey Galda
-        %span
-          usa
-      .page_pilot_suit
-        %p
-          Squirrel Suits
-          %span
-            CS+
-      .page_pilot_st 1
+    .page_wrapp
+      .page_wrapp_leaders
+        %a.page_wrapp_leaders__item{:href => 'track.html'}
+          .page_wrapp_leaders__item__img
+            %img{:src => "../static/images/avatar/user.png"}/
+          .page_wrapp_leaders__item__name Chris Geiler
+          .page_wrapp_leaders__item__result 108.3 с
 
-      .page_pilot_result
-        .page_pilot_result_title Round #1
-        %table
-          %thead
-            %tr
-              %th Distance
-              %th Time
-              %th Speed
-          %tbody
-            %tr
-              %td 3110m
-              %td 87.3s
-              %td 237.9mk/h
-            %tr
-              %td 95.2%
-              %td 99.1%
-              %td 92.7%
-        .page_pilot_result_title Round #2
-        %table
-          %thead
-            %tr
-              %th Distance
-              %th Time
-              %th Speed
-          %tbody
-            %tr
-              %td.best 3221m
-              %td.best 89.2s
-              %td 249.0mk/h
-            %tr
-              %td 100.0%
-              %td 100.0%
-              %td 93.9%
+        %a.page_wrapp_leaders__item{:href => 'track.html'}
+          .page_wrapp_leaders__item__img
+            %img{:src => "../static/images/avatar/user.png"}/
+          .page_wrapp_leaders__item__name Dmitry Podoryashy
+          .page_wrapp_leaders__item__result 96.2 с
 
-    .page_result
-      .page_result_wrapp
-        %table
-          %tbody
-            %tr
-              %td.head.center.no_brd_top.no_brd_left{:colspan => "1", :rowspan => "3",} #
-              %td.head.no_brd_top{:colspan => "3", :rowspan => "3"} Competitor
-              %td.head.center.no_brd_top{:colspan => "5", :rowspan => "1"} Время
-              %td.head.center.no_brd_top{:colspan => "5", :rowspan => "1"} Дистанция
-              %td.head.center.no_brd_top{:colspan => "5", :rowspan => "1"} Скорость
-              %td.head.center.no_brd_top.no_brd_right{:colspan => "1", :rowspan => "3"} Итог
-            %tr
-              %td.head.center{:colspan => "2", :rowspan => "1"} 1
-              %td.head.center{:colspan => "2", :rowspan => "1"} 2
-              %td.head.center{:colspan => "1", :rowspan => "2"} %
-              %td.head.center{:colspan => "2", :rowspan => "1"} 1
-              %td.head.center{:colspan => "2", :rowspan => "1"} 2
-              %td.head.center{:colspan => "1", :rowspan => "2"} %
-              %td.head.center{:colspan => "2", :rowspan => "1"} 1
-              %td.head.center{:colspan => "2", :rowspan => "1"} 2
-              %td.head.center{:colspan => "1", :rowspan => "2"} %
-            %tr
-              %td.head.center с
-              %td.head.center %
-              %td.head.center с
-              %td.head.center %
-              %td.head.center м
-              %td.head.center %
-              %td.head.center м
-              %td.head.center %
-              %td.head.center км/ч
-              %td.head.center %
-              %td.head.center км/ч
-              %td.head.center %
-            %tr
-              %td.title.no_brd_right.no_brd_left{:colspan => "20"} Open
-            %tr
-              %td.center.no_brd_left 1
-              %td
-                %a{:href => "#"} Alexey Galda
-              %td.center USA
-              %td.gray SQ CR+
-              %td.right
-                %a.best{:href => "#"} 99.1
-              %td.right.gray 100.0
-              %td.right
-                %a.best{:href => "#"} 98.4
-              %td.right.gray 100.0
-              %td.right.gray 100.0
-              %td.right
-                %a.best{:href => "#"} 3211.4
-              %td.right.gray 100.0
-              %td.right
-                %a{:href => "#"} 2989.2
-              %td.right.gray 80.4
-              %td.right.gray 94.2
-              %td.right
-                %a.best{:href => "#"} 254.2
-              %td.right.gray 100.0
-              %td.right
-                %a{:href => "#"} 243.9
-              %td.right.gray 93.4
-              %td.right.gray 97.5
-              %td.center.no_brd_right 290.45
-            %tr
-              %td.center.no_brd_left 2
-              %td
-                %a{:href => "#"} Kristian Szczepitko
-              %td.center MON
-              %td.gray TS Jedei Nite
-              %td.right
-                %a{:href => "#"} 85.4
-              %td.right.gray 90.7
-              %td.right
-                %a{:href => "#"} 93.8
-              %td.right.gray 98.8
-              %td.right.gray 96.5
-              %td.right
-                %a{:href => "#"} 3110.8
-              %td.right.gray 94.2
-              %td.right
-                %a.best{:href => "#"} 3492.1
-              %td.right.gray 100.0
-              %td.right.gray 93.7
-              %td.right
-                %a{:href => "#"} 233.8
-              %td.right.gray 93.5
-              %td.right
-                %a.best{:href => "#"} 261.8
-              %td.right.gray 100.0
-              %td.right.gray 95.3
-              %td.center.no_brd_right 285.4
-            %tr
-              %td.center.no_brd_left 3
-              %td
-                %a{:href => "#"} Travis Mickle
-              %td.center RUS
-              %td.gray SQ C-Race
-              %td.right
-                %a{:href => "#"} 93.9
-              %td.right.gray 94.8
-              %td.right
-                %a{:href => "#"} 88.9
-              %td.right.gray 95.3
-              %td.right.gray 92.8
-              %td.right
-                %a{:href => "#"} 3008.2
-              %td.right.gray 89.5
-              %td.right
-                %a{:href => "#"} 3014.8
-              %td.right.gray 94.7
-              %td.right.gray 90.6
-              %td.right
-                %a{:href => "#"} 226.2
-              %td.right.gray 90.1
-              %td.right
-                %a{:href => "#"} 200.1
-              %td.right.gray 86.3
-              %td.right.gray 88.2
-              %td.center.no_brd_right 280.99
-            %tr
-              %td.title.no_brd_right.no_brd_left{:colspan => "20"} Intermediate
-            %tr
-              %td.center.no_brd_left 1
-              %td
-                %a{:href => "#"} Anthony Zerbonia
-              %td.center BRA
-              %td.gray PF Strix
-              %td.right
-                %a.best{:href => "#"} 98.2
-              %td.right.gray 100.0
-              %td.right
-                %a.best{:href => "#"} 95.2
-              %td.right.gray 100.0
-              %td.right.gray 100.0
-              %td.right
-                %a.best{:href => "#"} 3221.1
-              %td.right.gray 100.0
-              %td.right
-                %a{:href => "#"} 2854.2
-              %td.right.gray 90.1
-              %td.right.gray 95.3
-              %td.right
-                %a{:href => "#"} 232.9
-              %td.right.gray 94.1
-              %td.right
-                %a.best{:href => "#"} 259.1
-              %td.right.gray 100.0
-              %td.right.gray 98.0
-              %td.center.no_brd_right 284.3
-            %tr
-              %td.center.no_brd_left 2
-              %td
-                %a{:href => "#"} Joseph Likierman
-              %td.center NOR
-              %td.gray TS Jedei 2
-              %td.right
-                %a{:href => "#"} 93.9
-              %td.right.gray 96.2
-              %td.right
-                %a{:href => "#"} 91.1
-              %td.right.gray 91.8
-              %td.right.gray 91.6
-              %td.right
-                %a{:href => "#"} 3154.4
-              %td.right.gray 98.8
-              %td.right
-                %a{:href => "#"} 2943.7
-              %td.right.gray 93.7
-              %td.right.gray 92.9
-              %td.right
-                %a.best{:href => "#"} 245.2
-              %td.right.gray 100.0
-              %td.right
-                %a{:href => "#"} 243.8
-              %td.right.gray 95.8
-              %td.right.gray 96.9
-              %td.center.no_brd_right 273.5
-            %tr
-              %td.center.no_brd_left.no_brd_bottom 3
-              %td.no_brd_bottom
-                %a{:href => "#"} Dan Darby
-              %td.center.no_brd_bottom CHI
-              %td.gray.no_brd_bottom TS R-Bird 2
-              %td.right.no_brd_bottom
-                %a{:href => "#"} 90.6
-              %td.right.gray.no_brd_bottom 91.8
-              %td.right.no_brd_bottom
-                %a{:href => "#"} 84.8
-              %td.right.gray.no_brd_bottom 89.5
-              %td.right.gray.no_brd_bottom 86.7
-              %td.right.no_brd_bottom
-                %a{:href => "#"} 2987.1
-              %td.right.gray.no_brd_bottom 96.3
-              %td.right.no_brd_bottom
-                %a.best{:href => "#"} 3025.8
-              %td.right.gray.no_brd_bottom 100.0
-              %td.right.gray.no_brd_bottom 98.4
-              %td.right.no_brd_bottom
-                %a{:href => "#"} 210.2
-              %td.right.gray.no_brd_bottom 91.4
-              %td.right.no_brd_bottom
-                %a{:href => "#"} 229.4
-              %td.right.gray.no_brd_bottom 89.4
-              %td.right.gray.no_brd_bottom 90.4
-              %td.center.no_brd_right.no_brd_bottom 266.4
+        %a.page_wrapp_leaders__item{:href => 'track.html'}
+          .page_wrapp_leaders__item__img
+            %img{:src => "../static/images/avatar/user.png"}/
+          .page_wrapp_leaders__item__name Kistaichev Sergey
+          .page_wrapp_leaders__item__result 95.7 с
+      .page_wrapp_pilots
+        .table
+          %a.tr{:href => 'track.html'}
+            .td 1.
+            .td Chris Geiler
+            .td
+              %span SQ
+              CR+
+            .td 108.3 с
+          %a.tr{:href => 'track.html'}
+            .td 2.
+            .td Dmitry Podoryashy
+            .td
+              %span PF
+              Vampire Alpine
+            .td 96.2 с
+          %a.tr{:href => 'track.html'}
+            .td 3.
+            .td Kistaichev Sergey
+            .td
+              %span PF
+              Vampire Alpine
+            .td 95.7 с
+          %a.tr{:href => 'track.html'}
+            .td 4.
+            .td Leonid Sigalov
+            .td
+              %span SQ
+              CR+
+            .td 95.3 с
+          %a.tr{:href => 'track.html'}
+            .td 5.
+            .td Il Principe
+            .td
+              %span SQ
+              CR+
+            .td 93.1 с
+          %a.tr{:href => 'track.html'}
+            .td 6.
+            .td Aleksei Shatilov
+            .td
+              %span TS
+              Jedei 3
+            .td 93.1 с
+          %a.tr{:href => 'track.html'}
+            .td 7.
+            .td Alexey Galda
+            .td
+              %span SQ
+              CR+
+            .td 92.2 с
+          %a.tr{:href => 'track.html'}
+            .td 8.
+            .td Davide Masi
+            .td
+              %span IA
+              Orca
+            .td 91.8 с
+          %a.tr{:href => 'track.html'}
+            .td 9.
+            .td Espen Fadnes
+            .td
+              %span SQ
+              CR+
+            .td 91.3 с
+          %a.tr{:href => 'track.html'}
+            .td 10.
+            .td Luke Rogers
+            .td
+              %span SQ
+              CR+
+            .td 91.0 с
+          %a.tr{:href => 'track.html'}
+            .td 11.
+            .td Kristian Szczepitko
+            .td
+              %span SQ
+              CR+
+            .td 90.9 с
+          %a.tr{:href => 'track.html'}
+            .td 12.
+            .td Joe Ridler
+            .td
+              %span SQ
+              CR+
+            .td 88.8 с
+          %a.tr{:href => 'track.html'}
+            .td 13.
+            .td Flo Kas
+            .td
+              %span TS
+              Rebel FreeBird
+            .td 88.8 с
+          %a.tr{:href => 'track.html'}
+            .td 14.
+            .td Andrew Swint
+            .td
+              %span SQ
+              CR+
+            .td 88.6 с
+          %a.tr{:href => 'track.html'}
+            .td 15.
+            .td Scott Steeves
+            .td
+              %span SQ
+              CR+
+            .td 88.5 с
+          %a.tr{:href => 'track.html'}
+            .td 16.
+            .td Alexandr Aksenov
+            .td
+              %span SQ
+              CR+
+            .td 88.2 с
+          %a.tr{:href => 'track.html'}
+            .td 17.
+            .td Giles Gueveneux
+            .td
+              %span TS
+              Jedei 3
+            .td 88.1 с
+          %a.tr{:href => 'track.html'}
+            .td 18.
+            .td Robert Krenker
+            .td
+              %span TS
+              Jedei 3
+            .td 88.1 с
+          %a.tr{:href => 'track.html'}
+            .td 19.
+            .td Scott Callantine
+            .td
+              %span TS
+              Jedei 2
+            .td 87.4 с
+          %a.tr{:href => 'track.html'}
+            .td 20.
+            .td Stefan Gilbert
+            .td
+              %span SQ
+              CR+
+            .td 87.2 с
+          %a.tr.you{:href => 'track.html'}
+            .td 598.
+            .td Александр Жариков
+            .td
+              %span TS
+              I-Bird
+            .td 42.9 с
